@@ -27,7 +27,7 @@ url:                 https://bioboot.github.io
 
 # Set to '' when hosting a blog on GitHub Pages, ie on `//<username>.github.io`
 # Set to '/<reponame>' when using the `gh-pages` branch of a repository
-baseurl:             /bimm143_w18
+baseurl:             /bimm143_W18
 
 # A very short description of your page
 tagline:             An introductory hands-on course in Bioinformatics for Biology majors at UCSD.
