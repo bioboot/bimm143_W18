@@ -1,0 +1,12 @@
+---
+layout: base
+---
+
+<div class="page">
+  <h1 class="page-title">{{ page.title | default: "404: Page Not Found" }}</h1>
+  <p class="lead">
+    HotDog! We've misplaced that URL or it's pointing to something that doesn't exist yet (perhaps content for a class that has not yet taken place). <br><br> If you think it should please let me (Barry) know in class or shoot me an email from the link on the left side bar. Thanks! <br><br> 
+    You can always <a href="{{ '/' | relative_url }}">head back home</a> to try finding it again.
+  </p>
+  <img src="{{ '/assets/img/404-error.gif' | relative_url }}" alt="404 page not found" style="width:504px">
+</div>

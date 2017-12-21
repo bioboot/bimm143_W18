@@ -1,0 +1,102 @@
+---
+title: "Lecture16 Sequence Comparasion"
+output: github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+This is a complement to the hands-on session for [lecture 16 of BGGN-213 F17](https://bioboot.github.io/bggn213_f17/lectures/#16). You can find the Rmarkdown document that generated this page [here](https://bioboot.github.io/bggn213_f17/class-material/lecture16_Q1_example.Rmd). In the following sections we walk through the analysis steps providing periodic output examples.
+
+## Q1. Identifing sites of mutation 
+We start by **1.** reading the provided sequences ([lecture16_sequences.fa](https://bioboot.github.io/bggn213_f17/class-material/lecture16_sequences.fa)) into R, then **2.** aligning, **3.** looking for sites of cancer specific mutation (i.e. differences between the two sequences), and finally **4.** outputing all 9-mer contaning subsequences encompasing these mutant sites.   
+
+
+
+```{r}
+library(bio3d)
+seqs <- read.fasta("~/Downloads/lecture16_sequences.fa")
+seqs
+```
+
+We can optionally align these sequences to make sure we have residue position correspondences correctly mapped between wt and mutant (incase of indels) with the following code. However, this appears to be unnecessary in this case as the provided sequences are already aligned. 
+
+```{r}
+#seqs <- seqaln(seqs)
+```
+
+Next we calculate identity per equivalent (i.e. aligned) position and then use this information to find non identical sites that do not contain gaps (i.e. indels).
+
+```{r}
+## Calculate positional identity scores
+ide <- conserv(seqs$ali, method="identity")
+mutant.sites <- which(ide < 1) 
+
+## Exclude gap possitions from analysis
+gaps <- gap.inspect(seqs)
+mutant.sites <- mutant.sites[mutant.sites %in% gaps$f.inds]
+
+mutant.sites
+```
+
+We can use these indices in `mutant.sites` to extract subsequences as required for the hands-on session. First however we come up with suitable names for these subsequences based on the mutation. This will help us later to make sense and keep track of our results.
+
+```{r}
+## Make a "names" label for our output sequences (one per mutant)
+mutant.names <- paste0(seqs$ali["P53_wt",mutant.sites],
+                       mutant.sites,
+                       seqs$ali["P53_mutant",mutant.sites])
+
+mutant.names
+```
+
+Now lets extract all 9-mer mutant encompassing sequences for each mutant site. This is equivalent to finding the sequence region eight residues before and eight residues after our mutation sites and outputting this subsequence to a new FASTA file.
+
+```{r}
+## Sequence positions surounding each mutant site
+start.position <- mutant.sites - 8
+end.position <-  mutant.sites + 8
+
+# Blank matrix to store sub-sequences
+store.seqs <- matrix("-", nrow=length(mutant.sites), ncol=17)
+rownames(store.seqs) <- mutant.names
+
+## Extract each sub-sequence
+for(i in 1:length(mutant.sites)) {
+  store.seqs[i,] <- seqs$ali["P53_mutant",start.position[i]:end.position[i]]
+}
+
+store.seqs
+```
+
+Finally lets output all these sequences to a FASTA file for further analysis with the IEDB HLA binding prediction website [http://tools.iedb.org/mhci/](http://tools.iedb.org/mhci/).  
+
+```{r}
+## Output a FASTA file for further analysis
+write.fasta(seqs=store.seqs, ids=mutant.names, file="subsequences.fa")
+
+```
+
+
+## Sidenote: Input sequence setup
+
+For refernce only, here we use the UniProt KRas oncogene sequence (http://www.uniprot.org/uniprot/P01116) as an example input and make 4 substations at random positions. Students would not need to do this as they will be provided with the output wild-type (`wt`) and mutant (`mutant`) containing FASTA format sequence file. We could also use p53 or any other protein for this hands-on session.
+
+```{r seqprep}
+library(bio3d)
+
+## Read KRas oncogene sequence from UniProt
+wt <- get.seq("P01116")
+
+## Here we make four mutants namely: G12V, Q22N, T74S and A130V
+mutant <- wt
+mutant$ali[ c(12,22,74,130)] <- c("V", "N", "S", "V")
+
+write.fasta( seqbind(wt, mutant), ids=c("wt","mutant"), file="kras-sequences.fa")
+```
+
+## Session Info
+```{r}
+sessionInfo()
+```
