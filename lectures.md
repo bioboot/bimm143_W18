@@ -10,47 +10,45 @@ All Lectures are Tu/Th 9:00-12:00 pm in Warren Lecture Hall 2015 (WLH 2015) ([Ma
 
 | \#  | Date | **Topics for Winter 2018** |
 | :---: | -------- | :--- |
-| 1 | Th, 01/09 | [**Welcome to Foundations of Bioinformatics**](#1)  <br> Course introduction, Leaning goals &amp; expectations, Biology is an information science, History of Bioinformatics, Types of data, Application areas and introduction to upcoming course segments, Student computer setup | 
+| 1 | Tu, 01/09 | [**Welcome to Bioinformatics**](#1)  <br> Course introduction, Leaning goals &amp; expectations, Biology is an information science, History of Bioinformatics, Types of data, Application areas and introduction to upcoming course segments, Student computer setup | 
 |   |   |   |
-| 2 | Tu, 01/11 | [**Bioinformatics databases and key online resources**](#2) <br> NCBI & EBI resources for the molecular domain of bioinformatics, Focus on GenBank, UniProt, Entrez and Gene Ontology. Hands on with BLAST, GenBank, OMIM, GENE, UniProt, Muscle, PFAM and PDB bioinformatics tools and databases | 
+| 2 | Th, 01/11 | [**Bioinformatics databases and key online resources**](#2) <br> NCBI & EBI resources for the molecular domain of bioinformatics, Focus on GenBank, UniProt, Entrez and Gene Ontology. Hands on with BLAST, GenBank, OMIM, GENE, UniProt, Muscle, PFAM and PDB bioinformatics tools and databases | 
 |   |   |   |
-| 3 | Th, 01/16 | [**Sequence alignment fundamentals, algorithms and applications**](#3) <br> Homology, Sequence similarity, Local and global alignment, classic Needleman-Wunsch, Smith-Waterman and BLAST heuristic approaches | 
+| 3 | Tu, 01/16 | [**Sequence alignment fundamentals, algorithms and applications**](#3) <br> Homology, Sequence similarity, Local and global alignment, classic Needleman-Wunsch, Smith-Waterman and BLAST heuristic approaches | 
 |   |   |   |
-| 4 | Tu, 01/18 | [**Advanced database searching**](#4) <br> Database searching beyond BLAST, PSI-BLAST, Profiles and HMMs, Protein structure comparisons | 
+| 4 | Th, 01/18 | [**Advanced database searching**](#4) <br> Database searching beyond BLAST, PSI-BLAST, Profiles and HMMs, Protein structure comparisons | 
 |   |   |   |
-| 5 | Th, 01/23 | **TBD** [**Introduction to UNIX for bioinformatics**](#5) <br> Why do we use UNIX for bioinformatics? UNIX philosophy, 21 Key commands, Understanding processes, File system structure, Connecting to remote servers | 
+| 5 | Tu, 01/23 | [**Bioinformatics data analysis with R**](#5) <br> R language basics and the RStudio IDE, Major R data structures and functions, Using R interactively from the console | 
 |   |   |   |
-| 6 | Tu, 01/25 | **TBD** [**Working with Unix**](#6) <br> Bioinformatics on the command line, Redirection, streams and pipes, Workflows for batch processing, Shell scripting, Organizing computational projects | 
+| 6 | Th, 01/25 | [**Working with R**](#6) <br> Organizing computational projects, Using R scripts, Rmarkdown, Introduction to R objects and functions, Import data in various formats (both local and from online sources) | 
 |   |   |   |
-| 7 | Th, 02/01 | [**Bioinformatics data analysis with R**](#7) <br> R language basics and the RStudio IDE, Major R data structures and functions, Using R scripts from the command line | 
+| 7 | Tu, 01/30 | [**Data exploration and visualization in R**](#7) <br> The exploratory data analysis mindset, Data visualization best practices, Simple base graphics (scatterplots, histograms, bar graphs and boxplots), Building more complex charts with ggplot | 
 |   |   |   |
-| 8 | Tu, 02/06 | [**Data exploration and visualization in R**](#8) <br> Import data in various formats (both local and from online sources), The exploratory data analysis mindset, Data visualization best practices, Simple base graphics (scatterplots, histograms, bar graphs and boxplots), Building more complex charts with ggplot | 
+| 8 | Th, 02/01 | [**Data exploration and visualization in R**](#8) <br> Import data in various formats (both local and from online sources), The exploratory data analysis mindset, Data visualization best practices, Simple base graphics (scatterplots, histograms, bar graphs and boxplots), Building more complex charts with ggplot | 
 |   |   |   |
-| 9 | Th, 02/08 | [**Why, when and how of writing your own R functions**](#9) <br> Import data in various formats both local and from online sources, The basics of writing your own functions that promote code robustness, reduce duplication and facilitate code re-use | 
+| 9 | Tu, 02/06 | [**Why, when and how of writing your own R functions**](#10) <br> The basics of writing your own functions that promote code robustness, reduce duplication and facilitate code re-use | 
 |   |   |   |
-| 10 | Tu, 02/13 | [**Working with R packages for bioinformatics**](#10) <br> Extending functionality and utility with R packages, Obtaining R packages from CRAN and bioconductor, Working with Bio3D for molecular data, Managing and analyzing genome-scale data with bioconductor | 
+| 10 | Th, 02/08 | **Project:** [**Find a gene assignment (Part 1)**](#10) <br> Principles of database searching, sequence analysis, structure analysis along with [**More on writing your own R functions**](#10) <br> Extensive hands-on demonstrations and practice writing your own functions  | 
 |   |   |   |
-| 11 | Th, 02/15 | [**Structural Bioinformatics**](#11) <br> Protein structure function relationships, Protein structure and visualization resources, Modeling energy as a function of structure, Homology modeling, Predicting functional dynamics, Inferring protein function from structure | 
+| 11 | Tu, 02/13 | [**Working with R packages for bioinformatics**](#11) <br> Extending functionality and utility with R packages, Obtaining R packages from CRAN and bioconductor, Working with Bio3D for molecular data, Managing and analyzing genome-scale data with bioconductor | 
 |   |   |   |
-| 12 | Tu, 02/20 | [**Bioinformatics in drug discovery and design**](#12) <br> Target identification, Lead identification, Small molecule docking methods, Protein motion and conformational variants, Molecular simulation and drug optimization | 
+| 12 | Th, 02/15 | [**Structural Bioinformatics (Part 1)**](#12) <br> Protein structure function relationships, Protein structure and visualization resources, Modeling energy as a function of structure | 
 |   |   |   |
-| 13 | Th, 02/22 | **Project:** [**Find a gene assignment**](#13) <br> Principles of database searching, sequence analysis, structure analysis and bioinformatic data analysis with the R environment | 
+| 13 | Tu, 02/20 | Optional Statistical Foundations of Bioinformatics or [**Structural Bioinformatics (Part 2)**](#13) <br> Homology modeling, Predicting functional dynamics, Inferring protein function from structure  | 
 |   |   |   |
-| 14 | Tu, 02/27 | [**Genome informatics and high throughput sequencing**](#14) <br> Searching genes and gene functions, Genome databases, Variation in the genome, Sequencing technologies past, present and future  (Sanger, Shotgun, PacBio, Illumina, toward the $500 human genome), Biological applications of sequencing, Bioinformatics analysis methods | 
+| 14 | Th, 02/22 | [**Bioinformatics in drug discovery and design**](#13) <br> Target identification, Lead identification, Small molecule docking methods, Protein motion and conformational variants, Molecular simulation and drug optimization | 
 |   |   |   |
-| 15 | Th, 03/01 | [**Major bioinformatics resources for genomics.**](#15) <br> Databases, tools and visualization resources from NCBI, EBI &amp; UCSC, The Galaxy platform for quality control and analysis; FASTQ, SAM and BAM file formats; Sample workflows with FASTQC and bowtie2 | 
+| 15 | Tu, 02/27 | [**Genome informatics and high throughput sequencing**](#15) <br> Searching genes and gene functions, Genome databases, Variation in the genome, Sequencing technologies past, present and future  (Sanger, Shotgun, PacBio, Illumina, toward the $500 human genome), Biological applications of sequencing, Bioinformatics analysis methods | 
 |   |   |   |
-| 16 | Tu, 03/06 | [**Immunoinformatics resources for the understanding of immunological information**](#16) <br> Guest lecture from Dr. Bjoern Peters (LIAI) with topics including: Epitope prediction,  Reverse vaccinology, Immune system modeling, Disease diagnosis and therapy along with implications for the development of personalized medicine. | 
+| 16 | Th, 03/01 | [**Major bioinformatics resources for genomics.**](#16) <br> Databases, tools and visualization resources from NCBI, EBI &amp; UCSC, The Galaxy platform for quality control and analysis; FASTQ, SAM and BAM file formats; Sample workflows with FASTQC and bowtie2 | 
 |   |   |   |
-|   | Th, 03/08 | **TBD** <br> **N.B.** Find a gene assignment due on Monday 11/27! |
+| 17 | Tu, 03/06 | [**Immunoinformatics resources for the understanding of immunological information**](#17) <br> Guest lecture from Dr. Bjoern Peters (LIAI) with topics including: Epitope prediction,  Reverse vaccinology, Immune system modeling, Disease diagnosis and therapy along with implications for the development of personalized medicine. | 
 |   |   |   |
-| 17 | Tu, 03/13 | [**Transcriptomics and the analysis of RNA-Seq data**](#17) <br> RNA-Seq aligners, Differential expression tests, RNA-Seq statistics, Counts and FPKMs and avoiding P-value misuse, Hands-on analysis of RNA-Seq data with R | 
+| 18 | Tu, 03/08 | [**Transcriptomics and the analysis of RNA-Seq data**](#18) <br> RNA-Seq aligners, Differential expression tests, RNA-Seq statistics, Counts and FPKMs and avoiding P-value misuse, Hands-on analysis of RNA-Seq data with R. <br> **N.B.** Find a gene assignment due on Tuesday 03/08!  | 
 |   |   |   |
-| 18 | Th, 03/15 | [**Genome annotation and the interpretation of gene lists**](#18) <br> Gene finding and functional annotation, Functional databases KEGG, InterPro, GO ontologies and functional enrichment | 
+| 19 | Th, 03/13 | [**Genome annotation and the interpretation of gene lists**](#19) <br> Gene finding and functional annotation, Functional databases KEGG, InterPro, GO ontologies and functional enrichment | 
 |   |   |   |
-| 19 | Tu, **TBD** | [**Guest lecture**](#19) <br> Student selected guest presentation with possible topics including: **Metagenomics** / **Pharmacogenomics** / **Epigenomicss** / **Personal genomics** / **Genome evolution** / **Genome editing and synthetic genomics** / **Social impacts and ethical implications of continuing* genomic advances**  | 
-|   |   |   |
-| 20 | Th, **TBD** | [**Course summary**](#20) <br> Summary of learning goals, Student course evaluation time and exam preparation | 
+| 20 | Th, 03/15 | [**Course summary**](#20) <br> Summary of learning goals, Student course evaluation time and exam preparation | 
 |   |   |   |
 |   | **TBD** (Th, 03/22) | **Final exam!** |
 
@@ -69,7 +67,7 @@ Course introduction, Leaning goals & expectations, Biology is an information sci
 - Understand course scope, expectations, logistics and [ethics code]({{ site.baseurl }}/ethics/).  
 - Understand the increasing necessity for computation in modern life sciences research.  
 - Get introduced to how bioinformatics is practiced.  
-- Complete the [pre-course questionnaire](https://goo.gl/forms/MH9ykT2Wjwl1ic2V2).  
+- Complete the [pre-course questionnaire](https://goo.gl/forms/n4NAf1CwCZfgjICs2).  
 - Setup your [laptop computer]({{ site.baseurl }}/setup/) for this course.  
 
 <!-- MAKE PRE-COURSE QUESTIONNAIRE and UPDATE LECTRUE SLIDES -->
@@ -80,7 +78,7 @@ Course introduction, Leaning goals & expectations, Biology is an information sci
   - SC2: [What is Bioinformatics?](https://www.youtube.com/embed/gJNXQfpErLY?rel=0) and  
   - SC3: [How do we do Bioinformatics?](https://www.youtube.com/embed/cCim7LrQZLY?rel=0).   
 - Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture1-BGGN213_F17-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture1-BGGN213_F17-small.pdf){:.no-push-state},    
-- [Handout: Class Syllabus]({{ site.baseurl }}/class-material/BGGN213_F17_syllabus.pdf){:.no-push-state}  
+- [Handout: Class Syllabus]({{ site.baseurl }}/class-material/BIMM143_W18_syllabus.pdf){:.no-push-state}  
 - Computer [Setup Instructions]({{ site.baseurl }}/setup/).  
 
 **Homework**:  

@@ -12,7 +12,7 @@ barry:
     : [Prof. Barry J. Grant](http://thegrantlab.org/) (Email: <bjgrant@ucsd.edu>)
 
     Instructional Assistant
-    : TBD  
+    : Alexzander Sharp (Email: <arsharp@ucsd.edu>)  
 
     Course Syllabus
     : [Winter 2018 (PDF)](https://bioboot.github.io/bimm143_W18/class-material/BIMM143_W18_syllabus.pdf){:.no-push-state}
@@ -72,7 +72,7 @@ barry:
     # stumbleupon:     <username>
     # paypal:          <username>
     email:           mailto:<bjgrant@ucsd.edu>
-    rss:             https://bioboot.github.io/bggn213_f17/feed.xml
+    rss:             https://bioboot.github.io/bimm143_W18/feed.xml
 
 # Another author
 ileena:

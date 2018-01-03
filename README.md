@@ -1,9 +1,11 @@
-# Foundations of Bioinformatics course website
+# Introduction to Bioinformatics  
 
-See: http://bioboot.github.io/bggn213_f17/
+UCSD undergraduate course for biology majors website.  
+
+See: http://bioboot.github.io/bimm143_W18/
 
 **Overview:** This is a simple [jekell based static site](http://jekyllrb.com/docs/home/). To view locally on your own machine (i.e. before pushing or submitting a pull 
-request to this [bioboot GitHub](https://github.com/bioboot/bggn213_f17) repo) 
+request to this [bioboot GitHub](https://github.com/bioboot/bimm143_W18) repo) 
 you will need to have the **jekyll** and **github-pages** gem setup (see further 
 below for full instructions)
 
@@ -12,7 +14,7 @@ below for full instructions)
 This is a simple [jekell based static site](http://jekyllrb.com/docs/home/). 
 
 To view locally on your own machine (i.e. before pushing or submitting a pull 
-request to this [bioboot GitHub](https://github.com/bioboot/bggn213_f17) repo) 
+request to this [bioboot GitHub](https://github.com/bioboot/bimm143_W18/) repo) 
 you will need to have the **jekyll** and **github-pages** gem setup, i.e.:
 
 ## Install ruby, jekyll and github-pages 
@@ -45,10 +47,10 @@ So you will want to be working on this branch and push back to this branch.
 A typical workflow for folks that have been added as **"Collaborators"** would look something like this:
 
 	## One time only clone
-	git clone https://github.com/bioboot/bggn213_f17.git
-	cd bggn213_f17
+	git clone https://github.com/bioboot/bimm143_W18.git
+	cd bimm143_W18
 
-	## Edit your files (e.g. lectures.md)
+	## Edit your files (e.g. lectures.md, _data/authors.yml, _config.yml)
 	vi lectures.md
 
 	## Check changes localy
@@ -78,7 +80,7 @@ Git clone old site to a new dir
   	git clone git@github.com:bioboot/bggn213_f17.git bggn213_f18
   	cd bggn213_f18/
   
-Update `_config.yml` and `index.md`. IN particular, rembember to change the dates and the pre-course questionnaire and post-course evaluation forms. Go through the regular `git add`, `git commit -m` cycle. But don’t yet push to GitHub (as we will want a new repo for this years class).
+Update `_config.yml`, `_data/authors.yml` and `index.md`. IN particular, rembember to change the dates and the pre-course questionnaire and post-course evaluation forms. Go through the regular `git add`, `git commit -m` cycle. But don’t yet push to GitHub (as we will want a new repo for this years class).
   
 
 On GitHub make a new repo (Use the “+” sign and name it `bggn213_f18` to match your local directory name. This name matching is purely for convenience).

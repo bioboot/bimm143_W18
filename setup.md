@@ -10,11 +10,11 @@ description: >
 comments: true
 ---
 
-Students in BGGN 213 will learn that Bioinformatics frequently requires analyzing large complex datasets. The recommended approach to such analysis is to work with a computer that offers **UNIX** integration. Together we will lean the fundamentals of the UNIX command line and the R environment for data analysis and graphics.
+Students in this course will learn that Bioinformatics frequently requires analyzing large complex datasets. The recommended approach to such analysis is to work with a computer that offers **UNIX** integration. Together we will lean the fundamentals of the UNIX command line and the R environment for data analysis and graphics.
 
 
 ### Student Laptops & Software Setup Instructions
-To fully participate in this course students will need to bring a laptop to class.  I much prefer Mac and Linux based laptops as they already have a UNIX base.  If you can, please bring one of these.  However, don't worry if you are running Windows as we will be able to login to a campus based UNIX machine from your laptop for classwork. 
+To fully participate in this course students will need to bring a laptop to class.  I much prefer Mac and Linux based laptops as they already have a UNIX base.  If you can, please bring one of these.  However, don't worry if you are running Windows as we will be able to login to a campus based UNIX machine from your laptop or use a classroom Mac for classwork. 
 
 Regardless of your laptop type you will need to install the software described below.
 
@@ -27,7 +27,7 @@ R Binaries for Windows, MacOSX and Linux can be downloaded and installed from [C
 
 After installing R itself we recommend installing [RStudio Desktop](https://www.rstudio.com/products/rstudio/download/#download) (v1.0.153 or above), a slick visual interface for R. **N.B.** You will want the Open Source **FREE** version.
 
-
+<!-- 
 ### The Bash Shell
 Bash is a commonly-used UNIX shell that gives you the power to do simple tasks more quickly.
 
@@ -50,7 +50,7 @@ When you're writing code, it's nice to have a text editor that is optimized for 
 **Linux:** nano should be pre-installed.
 
 **Windows:** Nano can be installed as a plugin to mobaxterm (see above). First start mobaxterm and then in the mobaxterm terminal type: `mobapt` Pressing Return will bring up a panel listing available additions. Please select **nano** by clicking on its entry and then the “Install/Update” button.
- 
+ --> 
 
 ### Using Jetstream
 
