@@ -4,9 +4,11 @@ title: Screen Cast Videos
 show_collection: projects
 description: >
   This is a listing of all previous screen-cast videos for Bioinformatics (BGGN-213). These short (sub 10 minute) videos are available for students to watch before class and are designed to help address potential variability in student background knowledge and aid with class inclusivity.
-menu: true
-order: 7
 ---
+
+#menu: true
+#order: 7
+
 
 ## Background and rational
 Students are often first introduced to a topic in class with subsequent homework typically aimed at reinforcing or evaluating the material learned in class. However, homework assignments can also prepare students to learn in future classes. A major first benefit of such pre-class assignments is that students will get more out of class if they already know the basic definitions and vocabulary, as well as having already had the chance to work through simple examples and think about concepts at their own pace. A classic example in this vein is the assignment of traditional pre-class reading. Unfortunately, no appropriate textbook exists for the current bioinformatics course. A further widely acknowledged weakness of traditional pre-class reading assignment, particularly those involving the original scientific literature, is that students often do not read the assigned text on a regular basis (Gooblar 2014, Heiner, Banet et al. 2014).  
