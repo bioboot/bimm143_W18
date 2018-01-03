@@ -74,15 +74,15 @@ Course introduction, Leaning goals & expectations, Biology is an information sci
 
 **Material**:  
 - Pre class screen casts (also see below):  
-  - SC1: [Welcome to BGGN-213](https://www.youtube.com/watch?v=P2oSO7YPyfU),  
+  - SC1: [Welcome to BIMM-143](https://www.youtube.com/watch?v=P2oSO7YPyfU),  
   - SC2: [What is Bioinformatics?](https://www.youtube.com/embed/gJNXQfpErLY?rel=0) and  
   - SC3: [How do we do Bioinformatics?](https://www.youtube.com/embed/cCim7LrQZLY?rel=0).   
-- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture1-BGGN213_F17-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture1-BGGN213_F17-small.pdf){:.no-push-state},    
+- Lecture Slides: Large PDF, Small PDF  <!-- [Large PDF]({{ site.baseurl }}/class-material/lecture1-BGGN213_F17-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture1-BGGN213_F17-small.pdf){:.no-push-state},   -->    
 - [Handout: Class Syllabus]({{ site.baseurl }}/class-material/BIMM143_W18_syllabus.pdf){:.no-push-state}  
 - Computer [Setup Instructions]({{ site.baseurl }}/setup/).  
 
 **Homework**:  
-- [Questions](https://goo.gl/forms/HHLNyLI4jeOwhGF73),  
+- [Questions](https://goo.gl/forms/uy64Mues1prtAEE13),  
 - Readings: 
   - PDF1: [What is bioinformatics? An introduction and overview]({{ site.baseurl }}/class-material/bioinformatics_review.pdf){:.no-push-state},  
   - PDF2: [Advancements and Challenges in Computational Biology]({{ site.baseurl }}/class-material/bioinformatics_challenges_2015.pdf){:.no-push-state},  
@@ -91,7 +91,7 @@ Course introduction, Leaning goals & expectations, Biology is an information sci
 **Screen Casts**:  
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/P2oSO7YPyfU?rel=0" frameborder="0" allowfullscreen></iframe>
-**1 Welcome to BGGN-213:**
+**1 Welcome to BIMM-143:**
 Course introduction and logistics.
 {:.message}  
 
@@ -124,7 +124,7 @@ NCBI & EBI resources for the molecular domain of bioinformatics, Focus on GenBan
 - The goals of the hands-on session is to introduce a range of core bioinformatics databases and associated online services whilst actively investigating the molecular basis of several common human disease.  
 
 **Material**:  
-- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture2-BGGN213_F17-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture2-BGGN213_F17-small.pdf){:.no-push-state},  
+- Lecture Slides: <!-- [Large PDF]({{ site.baseurl }}/class-material/lecture2-BGGN213_F17-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture2-BGGN213_F17-small.pdf){:.no-push-state}, -->  
 - [Handout: Major Bioinformatics Databases]({{ site.baseurl }}/class-material/Major_Databases_F17.pdf){:.no-push-state}  
 - [Hands-on section worksheet]({{ site.baseurl }}/class-material/lecture2-BGGN213_F17.pdf){:.no-push-state}
 - [Muddy point assessment](http://tinyurl.com/bggn13-02){:.no-push-state}  
@@ -152,10 +152,8 @@ Homology, Sequence similarity, Local and global alignment, Heuristic approaches,
 - The goals of the hands-on session are to explore the principles underlying the computational tools that can be used to compute and evaluate sequence alignments. 
 
 **Material**:   
-- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture3-BGGN213-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture3-BGGN213-small.pdf){:.no-push-state},  
-- [Hands-on section worksheet]({{ site.baseurl }}/class-material/lecture3-BGGN213_F17-lab.pdf){:.no-push-state}
-- [Muddy point assessment](https://goo.gl/forms/cmqxkNYwNRDADlXD3){:.no-push-state}  
  
+ - Lecture Slides: 
  
 **Homework**:   
 - [Quiz Questions](https://goo.gl/forms/Dxt0T03MPYusSmD92){:.no-push-state},  
@@ -176,10 +174,6 @@ Homology, Sequence similarity, Local and global alignment, Heuristic approaches,
 - Run our first bioinformatics tool from the command line.
 
 **Material**:  
-- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture4-BGGN213-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture4-BGGN213-small.pdf){:.no-push-state},  
-- [Hands-on section worksheet]({{ site.baseurl }}/class-material/lecture4_BGGN213_F17-lab.pdf){:.no-push-state}
-- [Muddy point assessment](https://goo.gl/forms/2SZ2tkd4vRFBZ9vv2)  
- 
  
 **Homework**:   
 - Questions and alignment problem from Lecture 3 above are due before the next class.  
@@ -199,14 +193,7 @@ Homology, Sequence similarity, Local and global alignment, Heuristic approaches,
 - Be able to connect to remote servers from the command line.  
 
 **Material**:  
-- [Pre class screen cast](https://www.youtube.com/watch?v=B8CrLITkDVo),  
-- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture5-BGGN213-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture5-BGGN213-small.pdf){:.no-push-state},  
-- Hands-on sections taken from [https://swcarpentry.github.io/shell-novice/](https://swcarpentry.github.io/shell-novice/){:.no-push-state},  
-  * [Unix Reference Commands and Glossary]({{ site.baseurl }}/class-material/unix-reference/),   
-  * Example data to download and explore: [bggn213_01_unix.zip]({{ site.baseurl }}/class-material/bggn213_01_unix.zip){:.no-push-state}.  Please download and move it to your Desktop and unzip.
-  * [Starting and connecting to a Jetstream virtual machine]({{ site.baseurl }}/jetstream/boot/).
-- [Muddy point assessment](https://goo.gl/forms/GAkMu5cSk3J25FPa2)  
- 
+
  
 **Homework**:   
 - Complete Software Carpentry UNIX lesson [sections 5 and 6](https://swcarpentry.github.io/shell-novice/){:.no-push-state}.  
@@ -239,13 +226,7 @@ Use simple Unix tools to investigate, search and summarize a data file.
 -->
 
 **Material**:  
-- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture6-BGGN213-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture6-BGGN213-small.pdf){:.no-push-state},  
-- Hands-on section worksheet
-  * [Running command-line BLAST]({{ site.baseurl }}/class-material/05_blast-01/){:.no-push-state},
-  * [Running large and long command line jobs]({{ site.baseurl }}/class-material/05_blast-02/){:.no-push-state},
-  * [Visualizing results with R/RStudio]({{ site.baseurl }}/class-material/05_blast-03/){:.no-push-state}.
-- [Muddy point assessment](https://goo.gl/forms/KHUlvRoEgJlx1JnD2){:.no-push-state}.  
- 
+
  
 **Homework**:   
 - Questions,  
@@ -281,10 +262,7 @@ cat types.txt | sort | uniq -c | head
 
  
 **Material**:  
-- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture7-BGGN213-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture7-BGGN213-small.pdf){:.no-push-state},  
-- [Hands-on section 1]({{ site.baseurl }}/class-material/07_rintro/){:.no-push-state},  
-- [Muddy point assessment](https://goo.gl/forms/oTjpnFEWf3czKLW63){:.no-push-state}.
- 
+
  
 **Homework**:   
 - [DataCamp Assignments!](https://www.datacamp.com/groups/foundations-of-bioinformatics-bggn-213/details){:.no-push-state}.    
@@ -307,12 +285,7 @@ cat types.txt | sort | uniq -c | head
 
 
 **Material**:  
-- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture8-BGGN213-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture8-BGGN213-small.pdf){:.no-push-state},  
-- Rmarkdown documents for [plot session 1]({{ site.baseurl }}/class-material/08_draw_circle_points/){:.no-push-state}, and [more advanced plots]({{ site.baseurl }}/class-material/08_draw_lecture_plots2/){:.no-push-state},  
-- [Hands-on section worksheet]({{ site.baseurl }}/class-material/lecture8-BGGN213_F17.pdf){:.no-push-state},  
-- Example data for hands-on sections [bggn213_08_rstats.zip]({{ site.baseurl }}/class-material/bggn213_08_rstats.zip){:.no-push-state},  
-- [Muddy point assessment](https://goo.gl/forms/U0NldeN1J6BNY6Nz2){:.no-push-state}  
- 
+
  
 **Homework**:   
 - This units homework is all [via **DataCamp** (see lecture 7 above)](https://www.datacamp.com/groups/foundations-of-bioinformatics-bggn-213/details#tab_assignments).   
@@ -333,11 +306,7 @@ cat types.txt | sort | uniq -c | head
 - Be able to follow a step by step process of going from a working code snippet to a more robust function.  
 
 **Material**:  
-- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture9-BGGN213-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture9-BGGN213-small.pdf){:.no-push-state},  
-- [Hands-on section worksheet]({{ site.baseurl }}/class-material/lecture9-BGGN213_F17.pdf){:.no-push-state},  
-- Flat files for importing with read.table: [test1.txt]({{ site.baseurl }}/class-material/test1.txt){:.no-push-state}, [test2.txt]({{ site.baseurl }}/class-material/test2.txt){:.no-push-state}, [test3.txt]({{ site.baseurl }}/class-material/test3.txt){:.no-push-state}.      
-- [Muddy point assessment](https://goo.gl/forms/xLBLy0WFnN1BZxPL2){:.no-push-state}    
- 
+
  
 **Homework**:   
 - This units homework is all [via **DataCamp** (see lecture 7 above)](https://www.datacamp.com/groups/foundations-of-bioinformatics-bggn-213/details#tab_assignments).   
@@ -356,11 +325,8 @@ cat types.txt | sort | uniq -c | head
 - Be able to write and (re)use basic R scripts to aid with reproducibility.  
 
 **Material**:  
-- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture10-BGGN213-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture10-BGGN213-small.pdf){:.no-push-state},  
-- [Collaborative Google Doc based notes on selected R packages](https://docs.google.com/document/d/1NWKCfySNAoZII_j9SwDLhEdpOEDDtAALPik4DxbXS9Q/edit?usp=sharing){:.no-push-state},    
-- [Introductory tutorial on R packages](https://www.datacamp.com/community/tutorials/r-packages-guide){:.no-push-state},  
-- [Muddy point assessment](https://goo.gl/forms/mErODorNRNa1JPRH2){:.no-push-state}.      
- 
+
+
  
 **Homework**:   
 - Complete question 6 from the [lecture 9 worksheet]({{ site.baseurl }}/class-material/lecture9-BGGN213_F17.pdf){:.no-push-state}. This entails turning a supplied code snippet into a more robust and re-usable function that will take any of the three listed input proteins and plot the effect of drug binding. Note assessment rubric within document. (Submission deadline: 9am **Th, 11/09**).  
@@ -382,10 +348,8 @@ cat types.txt | sort | uniq -c | head
 
 
 **Material**:  
-- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture11-BGGN213-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture11-BGGN213-small.pdf){:.no-push-state},  
-- [Hands-on section worksheet]({{ site.baseurl }}/class-material/lecture11-BGGN213_F17.pdf){:.no-push-state},  
-- VMD software [download link](http://www.ks.uiuc.edu/Development/Download/download.cgi){:.no-push-state},  
-- [Muddy point assessment](https://goo.gl/forms/jFYiInPNy3qFKv6U2){:.no-push-state}.      
+
+
 
 <hr>
 <a name="12"></a>
@@ -402,11 +366,6 @@ cat types.txt | sort | uniq -c | head
 
 
 **Material**:   
-- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture12-BGGN213-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture12-BGGN213-small.pdf){:.no-push-state},  
-- [Hands-on section worksheet]({{ site.baseurl }}/class-material/lecture12-BGGN213_F17.pdf){:.no-push-state},  
-- MGLTools software [download link](http://mgltools.scripps.edu/downloads){:.no-push-state},  
-- VMD software [download link](http://www.ks.uiuc.edu/Development/Download/download.cgi){:.no-push-state},  
-- [Muddy point assessment](https://goo.gl/forms/IuaXytmCkfK9yqgu1){:.no-push-state}.      
 
 
 
@@ -429,9 +388,8 @@ Late responses will not be accepted under any circumstances.
 ### Hands-on with Git:  
 Today’s lecture and hands-on sessions with introduce Git, currently the most popular version control system. We will learn how to perform common operations with Git that you’ll do every day. We will also cover the popular social code-hosting platforms GitHub and BitBucket.  
 
-- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture13-BGGN213-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture13-BGGN213-small.pdf){:.no-push-state},  
-- [Hands-on section worksheet 1](http://tinyurl.com/rclass-github){:.no-push-state},  
-- Optional: [Hands-on section worksheet 2](https://github.com/bioboot/demo2-github){:.no-push-state}.  
+
+
 
 <hr>
 <a name="14"></a>
@@ -447,12 +405,7 @@ Today’s lecture and hands-on sessions with introduce Git, currently the most p
 - Be able to navigate the Galaxy platform, input NGS sequence data and access common NGS tools for sequence analysis.  
 
 **Material**:   
-- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture14-BGGN213-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture14-BGGN213-small.pdf){:.no-push-state},  
-- [Hands-on section worksheet]({{ site.baseurl }}/class-material/lecture14-BGGN213_F17.pdf){:.no-push-state},  
-- RNA-Seq data files: [HG00109_1.fastq]({{ site.baseurl }}/class-material/HG00109_1.fastq){:.no-push-state}, [HG00109_2.fastq]({{ site.baseurl }}/class-material/HG00109_2.fastq){:.no-push-state}, [genes.chr17.gtf]({{ site.baseurl }}/class-material/genes.chr17.gtf){:.no-push-state}, [Expression genotype results]({{ site.baseurl }}/class-material/rs8067378_ENSG00000172057.6.txt){:.no-push-state}, [Example R script]({{ site.baseurl }}/class-material/lecture14_plot.r){:.no-push-state}.  
-- Hands-on section [Solutions.pdf]()
-- [Muddy point assessment](https://goo.gl/forms/NXUnSuVTFvoU7WMD3){:.no-push-state}.   
- 
+
 
 
 <hr>
@@ -470,11 +423,6 @@ Today’s lecture and hands-on sessions with introduce Git, currently the most p
 - Be able to use the Galaxy platform for basic RNA-Seq analysis from raw reads to expression value determination.  
 
 **Material**:  
-- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/BGGN213_F17_lecture15-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/BGGN213_F17_lecture15-small.pdf){:.no-push-state},  
-- [Hands-on section worksheet]({{ site.baseurl }}/class-material/lecture14-BGGN213_F17-update.pdf){:.no-push-state},  
-- RNA-Seq data files: [HG00109_1.fastq]({{ site.baseurl }}/class-material/HG00109_1.fastq){:.no-push-state}, [HG00109_2.fastq]({{ site.baseurl }}/class-material/HG00109_2.fastq){:.no-push-state}, [genes.chr17.gtf]({{ site.baseurl }}/class-material/genes.chr17.gtf){:.no-push-state}, [Expression genotype results]({{ site.baseurl }}/class-material/rs8067378_ENSG00000172057.6.txt){:.no-push-state}, [Example R script]({{ site.baseurl }}/class-material/lecture14_plot.r){:.no-push-state}.  
-- [SAM/BAM file format description]({{ site.baseurl }}//class-material/sam_format/){:.no-push-state}.  
-- [Muddy point assessment](https://goo.gl/forms/NXUnSuVTFvoU7WMD3){:.no-push-state}.   
 
   
 
@@ -485,22 +433,9 @@ Today’s lecture and hands-on sessions with introduce Git, currently the most p
 
 ## 16: Immunoinformatics 
 **Topics**: Immunoinformatics resources for the understanding of immunological information. A case study in personalized cancer immunotherapy.
-<br> Guest lecture from Dr. Bjoern Peters (LIAI) with topics including: Epitope prediction,  Reverse vaccinology, Immune system modeling, Disease diagnosis and therapy along with implications for the development of personalized medicine.
+<br> Other topics including: Epitope prediction,  Reverse vaccinology, Immune system modeling, Disease diagnosis and therapy along with implications for the development of personalized medicine.
 
 **Material**:  
-- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/BGGN213_F17_lecture16-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/BGGN213_F17_lecture16-small.pdf){:.no-push-state},  
-- [Hands-on section tasks]({{ site.baseurl }}/class-material/lecture15-lab/){:.no-push-state},  
-- Data files: [lecture16_sequences.fa]({{ site.baseurl }}//class-material/lecture16_sequences.fa){:.no-push-state}, Example [mutant identification and subsequence extraction with R]({{ site.baseurl }}//class-material/lecture16_Q1_example/){:.no-push-state} walk through.
-- Patient HLA typing results:
-~~~
-HLA-A*02:01   
-HLA-A*68:01 
-HLA-B*07:02 
-HLA-B*35:01
-~~~
-
-- Results: [subsequences.fa]({{ site.baseurl }}//class-material/subsequences.fa){:.no-push-state}, [Solutions.pdf]({{ site.baseurl }}//class-material/Solutions.pdf){:.no-push-state})
-- IEDB HLA binding prediction website [http://tools.iedb.org/mhci/](http://tools.iedb.org/mhci/){:.no-push-state}.  
 
 
 <hr>
@@ -518,12 +453,7 @@ HLA-B*35:01
 - Be able to extract, explore, visualize and export results
 
 **Material**:  
-- Lecture Slides: [PDF]({{ site.baseurl }}/class-material/BGGN213_F17_lecture17.pdf){:.no-push-state}.   
-- Detailed [Bioconductor setup]({{ site.baseurl }}//class-material/bioconductor_setup/){:.no-push-state} instructions.  
-- [Hands-on section worksheet]({{ site.baseurl }}/class-material/BGGN213_lecture17/){:.no-push-state}  
-- Data files: [airway_scaledcounts.csv]({{ site.baseurl }}/class-material/airway_scaledcounts.csv){:.no-push-state}, [airway_metadata.csv]({{ site.baseurl }}/class-material/airway_metadata.csv){:.no-push-state}, [annotables_grch38.csv]({{ site.baseurl }}/class-material/annotables_grch38.csv){:.no-push-state}.  
-- Muddy point assessment  
- 
+
  
 **Readings**:    
  - Excellent review article: [Conesa et al. A survey of best practices for RNA-seq data analysis. _Genome Biology_ 17:13 (2016)](http://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-0881-8){:.no-push-state}.
@@ -541,10 +471,8 @@ HLA-B*35:01
 **Goals**: Perform a GO analysis to identify the pathways relevant to a set of genes (e.g. identified by transcriptomic study or a proteomic experiment). Use both Bioconductor packages and online tools to interpret gene lists and annotate potential gene functions.
 
 **Material**:   
-- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/BGGN213_F17_lecture18-large.pdf){:.no-push-state}.      
-- [Hands-on section worksheet]({{ site.baseurl }}/class-material/BGGN213_lecture18/){:.no-push-state}  
-- Data files: [GSE37704_featurecounts.csv]({{ site.baseurl }}/class-material/GSE37704_featurecounts.csv){:.no-push-state}, [GSE37704_metadata.csv]({{ site.baseurl }}/class-material/GSE37704_metadata.csv){:.no-push-state}.   
- 
+
+
 **Readings**:    
  - Good review article: Trapnell C, Hendrickson DG, Sauvageau M, Goff L et al. "*Differential analysis of gene regulation at transcript resolution with RNA-seq*". Nat Biotechnol 2013 Jan;31(1):46-53. [PMID: 23222703](https://www.ncbi.nlm.nih.gov/pubmed/23222703){:.no-push-state}.  
 
@@ -567,9 +495,5 @@ HLA-B*35:01
 **Topics**: Data summary statistics; Inferential statistics; Significance testing; Two sample T-test in R; Power analysis in R; Chi-square test in R; Multiple testing correction; and almost everything you wanted to know about Principal Component Analysis (PCA) but were afraid to ask!  
 
 **Material**:   
-- Lecture Slides: [Ileena's slides Large PDF]({{ site.baseurl }}/class-material/BGGN213_Stats_Lec_Presentation.pdf){:.no-push-state},  [Barry's PCA slides, Large PDF]({{ site.baseurl }}/class-material/PCA.pdf){:.no-push-state}, [Link 2 for PCA slides](https://github.com/bioboot/bggn213_f17/raw/gh-pages/class-material/PCA.pdf){:.no-push-state}.     
-- [Hands-on section worksheet for PCA]({{ site.baseurl }}/class-material/UK_food_pca//){:.no-push-state}  
-- Data files: [UK_foods.csv]({{ site.baseurl }}/class-material/UK_foods.csv){:.no-push-state}.   
-- [Introduction to PCA site](http://setosa.io/ev/principal-component-analysis/){:.no-push-state}.
 
   
