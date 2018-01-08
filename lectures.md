@@ -73,15 +73,13 @@ Course introduction, Leaning goals & expectations, Biology is an information sci
 <!-- MAKE PRE-COURSE QUESTIONNAIRE and UPDATE LECTRUE SLIDES -->
 
 **Material**:  
-- Pre class screen casts (also see below):  
-  - SC1: [Welcome to BIMM-143](https://www.youtube.com/watch?v=P2oSO7YPyfU),  
-  - SC2: [What is Bioinformatics?](https://www.youtube.com/embed/gJNXQfpErLY?rel=0) and  
-  - SC3: [How do we do Bioinformatics?](https://www.youtube.com/embed/cCim7LrQZLY?rel=0).   
 - Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture1-BIMM143-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture1-BIMM143-small.pdf){:.no-push-state},      
-- [Handout: Class Syllabus]({{ site.baseurl }}/class-material/BIMM143_W18_syllabus.pdf){:.no-push-state}  
+- Lab: [Hands-on section worksheet]({{ site.baseurl }}/class-material/lecture1-BIMM143_W18.pdf){:.no-push-state}  
+- Feedback: [Muddy Point Assessment](https://tinyurl.com/bimm143-01){:.no-push-state}.
+
+
+- Handout: [Class Syllabus]({{ site.baseurl }}/class-material/BIMM143_W18_syllabus.pdf){:.no-push-state}  
 - Computer [Setup Instructions]({{ site.baseurl }}/setup/).  
-- [Hands-on section worksheet]({{ site.baseurl }}/class-material/lecture1-BIMM143_W18.pdf){:.no-push-state}  
-- [Muddy Point Assessment](https://tinyurl.com/bimm143-01){:.no-push-state}.  
 
 **Homework**:  
 - [Questions](https://goo.gl/forms/uy64Mues1prtAEE13),  
@@ -128,8 +126,6 @@ NCBI & EBI resources for the molecular domain of bioinformatics, Focus on GenBan
 **Material**:  
 - Lecture Slides: <!-- [Large PDF]({{ site.baseurl }}/class-material/lecture2-BGGN213_F17-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture2-BGGN213_F17-small.pdf){:.no-push-state}, -->  
 - [Handout: Major Bioinformatics Databases]({{ site.baseurl }}/class-material/Major_Databases_F17.pdf){:.no-push-state}  
-- [Hands-on section worksheet]({{ site.baseurl }}/class-material/lecture2-BGGN213_F17.pdf){:.no-push-state}
-- [Muddy point assessment](http://tinyurl.com/bggn13-02){:.no-push-state}  
  
 
 **Homework**:    
