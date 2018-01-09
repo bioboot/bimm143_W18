@@ -87,8 +87,11 @@ Course introduction, Leaning goals & expectations, Biology is an information sci
   - PDF1: [What is bioinformatics? An introduction and overview]({{ site.baseurl }}/class-material/bioinformatics_review.pdf){:.no-push-state},  
   - PDF2: [Advancements and Challenges in Computational Biology]({{ site.baseurl }}/class-material/bioinformatics_challenges_2015.pdf){:.no-push-state},  
   - Other: [For Big-Data Scientists, 'Janitor Work' Is Key Hurdle to Insights](http://www.nytimes.com/2014/08/18/technology/for-big-data-scientists-hurdle-to-insights-is-janitor-work.html) New York Times, 2014.  
+
+
   
 **Screen Casts**:  
+
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/P2oSO7YPyfU?rel=0" frameborder="0" allowfullscreen></iframe>
 **1 Welcome to BIMM-143:**
@@ -125,7 +128,7 @@ NCBI & EBI resources for the molecular domain of bioinformatics, Focus on GenBan
 
 **Material**:  
 - Lecture Slides: <!-- [Large PDF]({{ site.baseurl }}/class-material/lecture2-BGGN213_F17-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture2-BGGN213_F17-small.pdf){:.no-push-state}, -->  
-- [Handout: Major Bioinformatics Databases]({{ site.baseurl }}/class-material/Major_Databases_F17.pdf){:.no-push-state}  
+- [Handout: Major Bioinformatics Databases]({{ site.baseurl }}/class-material/Major_Databases_BIMM143.pdf){:.no-push-state}  
  
 
 **Homework**:    
