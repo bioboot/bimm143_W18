@@ -10,17 +10,17 @@ All Lectures are Tu/Th 9:00-12:00 pm in Warren Lecture Hall 2015 (WLH 2015) ([Ma
 
 | \#  | Date | **Topics for Winter 2018** |
 | :---: | -------- | :--- |
-| 1 | Tu, 01/09 | [**Welcome to Bioinformatics**](#1)  <br> Course introduction, Leaning goals &amp; expectations, Biology is an information science, History of Bioinformatics, Types of data, Application areas and introduction to upcoming course segments, Student computer setup | 
+| 1 | Tu, 01/09 | [**Welcome to Bioinformatics**](#1)  <br> Course introduction, Leaning goals &amp; expectations, Biology is an information science, History of Bioinformatics, Types of data, Application areas and introduction to upcoming course segments, Hands on with major Bioinformatics databases and key online NCBI and EBI resources  | 
 |   |   |   |
-| 2 | Th, 01/11 | [**Bioinformatics databases and key online resources**](#2) <br> NCBI & EBI resources for the molecular domain of bioinformatics, Focus on GenBank, UniProt, Entrez and Gene Ontology. Hands on with BLAST, GenBank, OMIM, GENE, UniProt, Muscle, PFAM and PDB bioinformatics tools and databases | 
+| 2 | Th, 01/11 | [**Sequence alignment fundamentals, algorithms and applications**](#2) <br> Homology, Sequence similarity, Local and global alignment, classic Needleman-Wunsch, Smith-Waterman and BLAST heuristic approaches, Hands on with dot plots, Needleman-Wunsch and BLAST algorithms highlighting their utility and limitations | 
 |   |   |   |
-| 3 | Tu, 01/16 | [**Sequence alignment fundamentals, algorithms and applications**](#3) <br> Homology, Sequence similarity, Local and global alignment, classic Needleman-Wunsch, Smith-Waterman and BLAST heuristic approaches | 
+| 3 | Tu, 01/16 | [**Advanced sequence alignment and database searching**](#3) <br> Detecting remote sequence similarity, Database searching beyond BLAST, Substitution matrices, Using PSI-BLAST, Profiles and HMMs, Protein structure comparisons | 
 |   |   |   |
-| 4 | Th, 01/18 | [**Advanced database searching**](#4) <br> Database searching beyond BLAST, PSI-BLAST, Profiles and HMMs, Protein structure comparisons | 
+| 4 | Th, 01/18 | [**Bioinformatics data analysis with R**](#4) <br> Why do we use R for bioinformatics? R language basics and the RStudio IDE, Major R data structures and functions, Using R interactively from the RStudio console  | 
 |   |   |   |
-| 5 | Tu, 01/23 | [**Bioinformatics data analysis with R**](#5) <br> R language basics and the RStudio IDE, Major R data structures and functions, Using R interactively from the console | 
+| 5 | Tu, 01/23 | [**Learning and using R**](#5) <br> Best practices for organizing reproducible computational projects, Using R scripts and Rmarkdown files, More on R data structures and functions, Using DataCamp interactively for learning R programming | 
 |   |   |   |
-| 6 | Th, 01/25 | [**Working with R**](#6) <br> Organizing computational projects, Using R scripts, Rmarkdown, Introduction to R objects and functions, Import data in various formats (both local and from online sources) | 
+| 6 | Th, 01/25 | [**Working with R**](#6) <br> More on R objects and functions, Import data in various formats (both local and from online sources), Writing your own R functions | 
 |   |   |   |
 | 7 | Tu, 01/30 | [**Data exploration and visualization in R**](#7) <br> The exploratory data analysis mindset, Data visualization best practices, Simple base graphics (scatterplots, histograms, bar graphs and boxplots), Building more complex charts with ggplot | 
 |   |   |   |
@@ -58,7 +58,7 @@ All Lectures are Tu/Th 9:00-12:00 pm in Warren Lecture Hall 2015 (WLH 2015) ([Ma
 # Class material
 
 <a name="1"></a>
-## 1: Introduction to Bioinformatics databases and key online resources 
+## 1: Welcome to Bioinformatics and introduction to Bioinformatics databases and key online resources 
 
 **Topics**:  
 Course introduction, Leaning goals & expectations, Biology is an information science, History of Bioinformatics, Types of data, Application areas and introduction to upcoming course segments, Student 30-second introductions, Introduction to NCBI & EBI resources for the molecular domain of bioinformatics, Hands-on session using NCBI-BLAST, Entrez, GENE, UniProt, Muscle and PDB bioinformatics tools and databases. 
@@ -116,7 +116,7 @@ Some basic bioinformatics can be done online or with downloaded tools. However, 
 
 <hr>
 <a name="2"></a>
-## 2:  Alignment fundamentals, algorithms and applications
+## 2:  Sequence alignment fundamentals, algorithms and applications
 
 **Topics**:  
 Further coverage of *major NCBI & EBI resources* for the molecular domain of bioinformatics with a focus on GenBank, UniProt, Entrez and Gene Ontology. There are many bioinformatics databases (see [handout]({{ site.baseurl }}/class-material/Major_Databases_BIMM143.pdf){:.no-push-state}) and being able to judge their utility and quality is important. *Sequence Alignment and Database Searching*:
@@ -152,55 +152,57 @@ Homology, Sequence similarity, Local and global alignment, Heuristic approaches,
 <a name="3"></a>
 <br>
 
-## 3. Alignment fundamentals, algorithms and applications
+## 3. Advanced sequence alignment and database searching
 
 **Topics**:  
-Sequence Alignment and Database Searching
-Homology, Sequence similarity, Local and global alignment, Heuristic approaches, Database searching with BLAST, E-values and evaluating alignment scores and statistics.
+Detecting remote sequence similarity, Database searching beyond BLAST, PSI-BLAST, Profiles and HMMs, Protein structure comparisons, Beginning with command line based database searches.
 
 **Goal**:  
-- Be able to describe how dynamic programming works for pairwise sequence alignment 
-- Appreciate the differences between global and local alignment along with their major application areas.
-- Understand how aligning novel sequences with previously characterized genes or proteins provides important insights into their common attributes and evolutionary origins. 
-- The goals of the hands-on session are to explore the principles underlying the computational tools that can be used to compute and evaluate sequence alignments. 
+- Be able to calculate the alignment score between two nucleotide or protein sequences using a provided scoring matrix
+- Understand the limits of homology detection with tools such as BLAST 
+- Be able to perform PSI-BLAST, HMMER and protein structure based database searches and interpret the results in terms of the biological significance of an e-value.
+- Run our first bioinformatics tool from the command line.
 
 **Material**:   
  
  - Lecture Slides: 
  
 **Homework**:   
-- [Quiz Questions](https://goo.gl/forms/48zDkPl1tZ1eMVtT2){:.no-push-state},  
-- [Alignment Problem]({{ site.baseurl }}/class-material/lecture3-homework.pdf){:.no-push-state},  
 
 
 
 <a name="4"></a>
 <br>
 
-## 4:  Advanced Database Searching
-**Topics**: Database searching beyond BLAST, Using PSI-BLAST, Profiles and HMMs, Protein structure comparisons, Beginning with command line based database searches.  
+## 4:  Bioinformatics data analysis with R
+**Topics**: Why do we use R for bioinformatics? R language basics and the RStudio IDE, Major R data structures and functions, Using R interactively from the RStudio console.  
 
 **Goal**: 
-- Be able to calculate the alignment score between two nucleotide or protein sequences using a provided scoring matrix
-- Understand the limits of homology detection with tools such as BLAST 
-- Be able to perform PSI-BLAST, HMMER and protein structure based database searches and interpret the results in terms of the biological significance of an e-value.
-- Run our first bioinformatics tool from the command line.
+- Understand why we use R for bioinformatics
+- Familiarity with R's basic syntax,  
+- Be able to use R to read and parse comma-separated (.csv) formatted files ready for subsequent analysis,  
+- Familiarity with major R data structures (vectors, matrices and data.frames),  
+- Understand the basics of using functions (arguments, vectorizion and re-cycling).  
 
+ 
 **Material**:  
+
  
 **Homework**:   
-- Questions and alignment problem from Lecture 3 above are due before the next class.  
+- [DataCamp Assignments!](https://www.datacamp.com/groups/foundations-of-bioinformatics-bggn-213/details){:.no-push-state}.    
+
 
 
 <hr>
 <a name="5"></a>
 <br>
 
-## 5: Introduction to UNIX for bioinformatics   
-**Topics**: Why do we use UNIX for bioinformatics? UNIX philosophy, 21 Key commands, Understanding processes, File system structure, Connecting to remote servers, Starting up and managing a Jetstream service virtual machine instance.
+## 5: Learning and using R   
+**Topics**: , Best practices for organizing reproducible computational projects, Using R scripts and Rmarkdown files, More on R data structures and functions, Using DataCamp interactively for learning R programming.  
+
 
 **Goal**: 
-- Understand why we use UNIX for bioinformatics
+- Appreciate best practices for organizing reproducible computational projects. 
 - Use UNIX command-line tools for file system navigation and text file manipulation.
 - Have a familiarity with 21 key UNIX commands that we will use ~90% of the time.  
 - Be able to connect to remote servers from the command line.  
@@ -219,8 +221,8 @@ Homology, Sequence similarity, Local and global alignment, Heuristic approaches,
 <a name="6"></a>
 <br>
 
-## 6: Working with Unix   
-**Topics**: Bioinformatics on the command line, Redirection, streams and pipes, Workflows for batch processing, Shell scripting, Organizing computational projects.
+## 6: Working with R   
+**Topics**: More on R objects and functions, Import data in various formats (both local and from online sources), Writing your own R functions.
 
 **Goal**: 
 - Use existing programs at the UNIX command line to analyze bioinformatics data,
