@@ -58,10 +58,10 @@ All Lectures are Tu/Th 9:00-12:00 pm in Warren Lecture Hall 2015 (WLH 2015) ([Ma
 # Class material
 
 <a name="1"></a>
-## 1: Welcome to Foundations of Bioinformatics 
+## 1: Introduction to Bioinformatics databases and key online resources 
 
 **Topics**:  
-Course introduction, Leaning goals & expectations, Biology is an information science, History of Bioinformatics, Types of data, Application areas and introduction to upcoming course segments, Student 30-second introductions, Student computer setup.  
+Course introduction, Leaning goals & expectations, Biology is an information science, History of Bioinformatics, Types of data, Application areas and introduction to upcoming course segments, Student 30-second introductions, Introduction to NCBI & EBI resources for the molecular domain of bioinformatics, Hands-on session using NCBI-BLAST, Entrez, GENE, UniProt, Muscle and PDB bioinformatics tools and databases. 
 
 **Goals**: 
 - Understand course scope, expectations, logistics and [ethics code]({{ site.baseurl }}/ethics/).  
@@ -69,14 +69,15 @@ Course introduction, Leaning goals & expectations, Biology is an information sci
 - Get introduced to how bioinformatics is practiced.  
 - Complete the [pre-course questionnaire](https://goo.gl/forms/n4NAf1CwCZfgjICs2).  
 - Setup your [laptop computer]({{ site.baseurl }}/setup/) for this course.  
+- The goals of the hands-on session is to introduce a range of core bioinformatics databases and associated online services whilst actively investigating the molecular basis of several common human disease.
 
 <!-- MAKE PRE-COURSE QUESTIONNAIRE and UPDATE LECTRUE SLIDES -->
 
 **Material**:  
 - Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture1-BIMM143-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture1-BIMM143-small.pdf){:.no-push-state},      
 - Lab: [Hands-on section worksheet]({{ site.baseurl }}/class-material/lecture1-BIMM143_W18.pdf){:.no-push-state}  
-- Feedback: [Muddy Point Assessment](https://tinyurl.com/bimm143-01){:.no-push-state}.
-
+- Feedback: [Muddy Point Assessment](https://tinyurl.com/bimm143-01){:.no-push-state},  
+- Feedback: [Results](https://docs.google.com/forms/d/e/1FAIpQLSdYH9G5gIVS2LawpMuOzAqgFo5f3NK4BaiPY9-O71FNEd-ycw/viewanalytics){:.no-push-state}.  
 
 - Handout: [Class Syllabus]({{ site.baseurl }}/class-material/BIMM143_W18_syllabus.pdf){:.no-push-state}  
 - Computer [Setup Instructions]({{ site.baseurl }}/setup/).  
@@ -102,36 +103,47 @@ Course introduction and logistics.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/gJNXQfpErLY?rel=0" frameborder="0" allowfullscreen></iframe>
 **2 What is Bioinformatics?**
-Bioinformatics can mean diferent things to different people. What will we actually learn in this class?
+Bioinformatics can mean different things to different people. What will we actually learn in this class?
 {:.message}  
 
 <br/>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/cCim7LrQZLY?rel=0" frameborder="0" allowfullscreen></iframe>
 **3 How do we do Bioinformatics?**
-Some basic bioinformatics can be done online or with downloaded tools. However, most often we will need a specailized computational setup.
+Some basic bioinformatics can be done online or with downloaded tools. However, most often we will need a specialized computational setup.
 {:.message}  
 
 
 <hr>
 <a name="2"></a>
-## 2:  Bioinformatics databases and key online resources
+## 2:  Alignment fundamentals, algorithms and applications
 
 **Topics**:  
-NCBI & EBI resources for the molecular domain of bioinformatics, Focus on GenBank, UniProt, Entrez and Gene Ontology. Hands on with BLAST, GenBank, OMIM, GENE, UniProt, Muscle, PFAM and PDB bioinformatics tools and databases. There are many bioinformatics databases (see [handout]({{ site.baseurl }}/class-material/Major_Databases_F17.pdf){:.no-push-state}) and being able to judge their utility and quality is important.  
+Further coverage of *major NCBI & EBI resources* for the molecular domain of bioinformatics with a focus on GenBank, UniProt, Entrez and Gene Ontology. There are many bioinformatics databases (see [handout]({{ site.baseurl }}/class-material/Major_Databases_BIMM143.pdf){:.no-push-state}) and being able to judge their utility and quality is important. *Sequence Alignment and Database Searching*:
+Homology, Sequence similarity, Local and global alignment, Heuristic approaches, Database searching with BLAST, E-values and evaluating alignment scores and statistics.
+ 
 
 **Goals**:  
 - Be able to query, search, compare and contrast the data contained in major bioinformatics databases (GenBank, GENE, UniProt, PFAM, OMIM, PDB) and describe how these databases intersect.  
 - Be able to describe how nucleotide and protein sequence and structure data are represented (FASTA, FASTQ, GenBank, UniProt, PDB).
-- Be familiar with online tools at the EBI and NCBI including Muscle and BLAST.
-- The goals of the hands-on session is to introduce a range of core bioinformatics databases and associated online services whilst actively investigating the molecular basis of several common human disease.  
+- Be able to describe how dynamic programming works for pairwise sequence alignment 
+- Appreciate the differences between global and local alignment along with their major application areas.
+- Understand how aligning novel sequences with previously characterized genes or proteins provides important insights into their common attributes and evolutionary origins. 
+- The goals of the hands-on session are to explore the principles underlying the computational tools that can be used to compute and evaluate sequence alignments. 
 
 **Material**:  
-- Lecture Slides: <!-- [Large PDF]({{ site.baseurl }}/class-material/lecture2-BGGN213_F17-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture2-BGGN213_F17-small.pdf){:.no-push-state}, -->  
+- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture2-BIMM143_W18-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture2-BIMM143_W18-small.pdf){:.no-push-state},    
 - [Handout: Major Bioinformatics Databases]({{ site.baseurl }}/class-material/Major_Databases_BIMM143.pdf){:.no-push-state}  
- 
+- Lab: [Hands-on section worksheet]({{ site.baseurl }}/class-material/lecture2-BIMM143_W18-lab.pdf){:.no-push-state}  
+- Feedback: [Muddy Point Assessment](https://goo.gl/forms/ngtYuVEQXiUYdD2H3){:.no-push-state}.   
 
-**Homework**:    
+
+**Homework**:   
+- [Quiz Questions](https://goo.gl/forms/48zDkPl1tZ1eMVtT2){:.no-push-state},  
+- [Alignment Problem]({{ site.baseurl }}/class-material/lecture2-homework.pdf){:.no-push-state},  
+
+
+**Readings**:    
 - Readings: PDF1: [What is dynamic programming?]({{ site.baseurl }}/class-material/Dynamic_programming_primer.pdf){:.no-push-state},  
 - Readings: PDF2 [Fundamentals of database searching]({{ site.baseurl }}/class-material/Fundamentals.pdf){:.no-push-state}.   
 
@@ -157,7 +169,7 @@ Homology, Sequence similarity, Local and global alignment, Heuristic approaches,
  - Lecture Slides: 
  
 **Homework**:   
-- [Quiz Questions](https://goo.gl/forms/Dxt0T03MPYusSmD92){:.no-push-state},  
+- [Quiz Questions](https://goo.gl/forms/48zDkPl1tZ1eMVtT2){:.no-push-state},  
 - [Alignment Problem]({{ site.baseurl }}/class-material/lecture3-homework.pdf){:.no-push-state},  
 
 
