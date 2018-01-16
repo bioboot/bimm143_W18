@@ -171,7 +171,8 @@ Detecting remote sequence similarity, Database searching beyond BLAST, PSI-BLAST
 - Feedback: [Muddy Point Assessment](https://goo.gl/forms/6Kx5KWtFOyqJJyYB2){:.no-push-state}.   
 
 **Homework**:   
-Introduction to DataCamp!  
+- [DataCamp Assignments!](https://www.datacamp.com/groups/introduction-to-bioinformatics-bimm-143/assignments){:.no-push-state}.    
+  
 
 
 <a name="4"></a>
@@ -192,7 +193,7 @@ Introduction to DataCamp!
 
  
 **Homework**:   
-- [DataCamp Assignments!](https://www.datacamp.com/groups/foundations-of-bioinformatics-bggn-213/details){:.no-push-state}.    
+- [DataCamp Assignments!](https://www.datacamp.com/groups/introduction-to-bioinformatics-bimm-143/assignments){:.no-push-state}.    
 
 
 
