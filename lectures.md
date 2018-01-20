@@ -192,7 +192,8 @@ Detecting remote sequence similarity, Database searching beyond BLAST, PSI-BLAST
 **Material**:  
 - Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture4-BIMM143-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture4-BIMM143-small.pdf){:.no-push-state},  
 - Lab: [Hands-on section 1]({{ site.baseurl }}/class-material/04_rintro/){:.no-push-state},  
-- Feedback: [Muddy point assessment](https://goo.gl/forms/yS24ed75GO7ipT903){:.no-push-state}.
+- Feedback: [Muddy point assessment](https://goo.gl/forms/yS24ed75GO7ipT903){:.no-push-state},  
+- Feedback: [Responses](https://docs.google.com/forms/d/e/1FAIpQLScfn86ieqHmHGzQs8qGOf_Y1tzB2_uRcaFDlBnxKYi3Tnzupg/viewanalytics?usp=form_confirm){:.no-push-state}.   
 
  
 **Homework**:   
@@ -204,24 +205,29 @@ Detecting remote sequence similarity, Database searching beyond BLAST, PSI-BLAST
 <a name="5"></a>
 <br>
 
-## 5: Learning and using R   
-**Topics**: , Best practices for organizing reproducible computational projects, Using R scripts and Rmarkdown files, More on R data structures and functions, Using DataCamp interactively for learning R programming.  
-
+## 5: Data exploration and visualization in R    
+**Topics**: The exploratory data analysis mindset, Data visualization best practices, Simple base graphics (including scatterplots, histograms, bar graphs, dot chats, boxplots and heatmaps), Building more complex charts with ggplot.
 
 **Goal**: 
-- Appreciate best practices for organizing reproducible computational projects. 
-- Use UNIX command-line tools for file system navigation and text file manipulation.
-- Have a familiarity with 21 key UNIX commands that we will use ~90% of the time.  
-- Be able to connect to remote servers from the command line.  
+- Appreciate the major elements of exploratory data analysis and why it is important to visualize data.
+- Be conversant with data visualization best practices and understand how good visualizations optimize for the human visual system. 
+- Be able to generate  informative graphical displays including scatterplots, histograms, bar graphs, boxplots, dendrograms and heatmaps and thereby gain exposure to the extensive graphical capabilities of R.
+- Appreciate that you can build even more complex charts with ggplot and additional R packages such as rgl.
+
+
 
 **Material**:  
-
+- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture5-BIMM143-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture5-BIMM143-small.pdf){:.no-push-state},  
+- Rmarkdown documents for [plot session 1]({{ site.baseurl }}/class-material/05_draw_circle_points/){:.no-push-state}, and [more advanced plots]({{ site.baseurl }}/class-material/05_draw_lecture_plots2/){:.no-push-state},  
+- Lab: [Hands-on section worksheet]({{ site.baseurl }}/class-material/lecture5-BIMM143_lab.pdf){:.no-push-state},  
+- Example data for hands-on sections [bimm143_05_rstats.zip]({{ site.baseurl }}/class-material/bimm143_05_rstats.zip){:.no-push-state},  
+- Feedback: [Muddy point assessment](https://goo.gl/forms/TReoCLQvYhP2d0KY2){:.no-push-state}  
+ 
  
 **Homework**:   
-- Complete Software Carpentry UNIX lesson [sections 5 and 6](https://swcarpentry.github.io/shell-novice/){:.no-push-state}.  
-- Read: [A Quick Guide to Organizing Computational Biology Projects (Noble 2009)](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1000424){:.no-push-state}.  
-- Optional: [Introduction to Bash Shell Scripting](https://en.wikibooks.org/wiki/Bash_Shell_Scripting){:.no-push-state}.   
+- This units homework is all [via **DataCamp** (see lecture 4 above)](https://www.datacamp.com/groups/introduction-to-bioinformatics-bimm-143/assignments){:.no-push-state}.   
  
+
 
 
 <hr>
@@ -229,9 +235,10 @@ Detecting remote sequence similarity, Database searching beyond BLAST, PSI-BLAST
 <br>
 
 ## 6: Working with R   
-**Topics**: More on R objects and functions, Import data in various formats (both local and from online sources), Writing your own R functions.
+**Topics**: Best practices for organizing reproducible computational projects, Using R scripts and Rmarkdown files, More on R data structures, objects and functions, Import data in various formats (both local and from online sources), Writing your own R functions.
 
 **Goal**: 
+- Appreciate best practices for organizing reproducible computational projects.  
 - Use existing programs at the UNIX command line to analyze bioinformatics data,
 - Understand IO Redirection, Streams and pipes,  
 - Think in terms of modular workflows for batch processing,  
