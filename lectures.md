@@ -18,15 +18,15 @@ All Lectures are Tu/Th 9:00-12:00 pm in Warren Lecture Hall 2015 (WLH 2015) ([Ma
 |   |   |   |
 | 4 | Th, 01/18 | [**Bioinformatics data analysis with R**](#4) <br> Why do we use R for bioinformatics? R language basics and the RStudio IDE, Major R data structures and functions, Using R interactively from the RStudio console  | 
 |   |   |   |
-| 5 | Tu, 01/23 | [**Learning and using R**](#5) <br> Best practices for organizing reproducible computational projects, Using R scripts and Rmarkdown files, More on R data structures and functions, Using DataCamp interactively for learning R programming | 
+| 5 | Tu, 01/23 | [**Data exploration and visualization in R**](#5) <br> The exploratory data analysis mindset, Data visualization best practices, Using and customizing base graphics (scatterplots, histograms, bar graphs and boxplots), Building more complex charts with ggplot and rgl | 
 |   |   |   |
-| 6 | Th, 01/25 | [**Working with R**](#6) <br> More on R objects and functions, Import data in various formats (both local and from online sources), Writing your own R functions | 
+| 6 | Th, 01/25 | [**Working with R**](#6) <br> Best practices for organizing reproducible computational projects, Using R scripts and Rmarkdown files, More on R data structures, objects and functions, Efficient R programming, Import data in various formats (both local and from online sources), Writing your own R functions | 
 |   |   |   |
-| 7 | Tu, 01/30 | [**Data exploration and visualization in R**](#7) <br> The exploratory data analysis mindset, Data visualization best practices, Simple base graphics (scatterplots, histograms, bar graphs and boxplots), Building more complex charts with ggplot | 
+| 7 | Tu, 01/30 | [**Why, when and how of writing your own R functions**](#7) <br> The basics of writing your own functions that promote code robustness, reduce duplication and facilitate code re-use | 
 |   |   |   |
-| 8 | Th, 02/01 | [**Data exploration and visualization in R**](#8) <br> Import data in various formats (both local and from online sources), The exploratory data analysis mindset, Data visualization best practices, Simple base graphics (scatterplots, histograms, bar graphs and boxplots), Building more complex charts with ggplot | 
+| 8 | Th, 02/01 | [**Bioinformatics R packages from CRAN and BioConductor**](#8) <br> Extending functionality and utility with R packages, Obtaining R packages from CRAN and BioConductor, Working with Bio3D for molecular data | 
 |   |   |   |
-| 9 | Tu, 02/06 | [**Why, when and how of writing your own R functions**](#10) <br> The basics of writing your own functions that promote code robustness, reduce duplication and facilitate code re-use | 
+| 9 | Tu, 02/06 | [**Comparative protein sequence analysis and phylogenetics**](#10) <br> Using R packages for The basics of writing your own functions that promote code robustness, reduce duplication and facilitate code re-use | 
 |   |   |   |
 | 10 | Th, 02/08 | **Project:** [**Find a gene assignment (Part 1)**](#10) <br> Principles of database searching, sequence analysis, structure analysis along with [**More on writing your own R functions**](#10) <br> Extensive hands-on demonstrations and practice writing your own functions  | 
 |   |   |   |
