@@ -221,7 +221,8 @@ Detecting remote sequence similarity, Database searching beyond BLAST, PSI-BLAST
 - Rmarkdown documents for [plot session 1]({{ site.baseurl }}/class-material/05_draw_circle_points/){:.no-push-state}, and [more advanced plots]({{ site.baseurl }}/class-material/05_draw_lecture_plots2/){:.no-push-state},  
 - Lab: [Hands-on section worksheet]({{ site.baseurl }}/class-material/lecture5-BIMM143_lab.pdf){:.no-push-state},  
 - Example data for hands-on sections [bimm143_05_rstats.zip]({{ site.baseurl }}/class-material/bimm143_05_rstats.zip){:.no-push-state},  
-- Feedback: [Muddy point assessment](https://goo.gl/forms/TReoCLQvYhP2d0KY2){:.no-push-state}  
+- Feedback: [Muddy point assessment](https://goo.gl/forms/TReoCLQvYhP2d0KY2){:.no-push-state},  
+- Feedback: [Responses](https://docs.google.com/forms/d/e/1FAIpQLSe4OaFIL7ibLU38ifwM6GWJE2adzU3nEe5KY9zXhQufkgTK5Q/viewanalytics){:.no-push-state}.    
  
  
 **Homework**:   
@@ -234,67 +235,47 @@ Detecting remote sequence similarity, Database searching beyond BLAST, PSI-BLAST
 <a name="6"></a>
 <br>
 
-## 6: Working with R   
-**Topics**: Best practices for organizing reproducible computational projects, Using R scripts and Rmarkdown files, More on R data structures, objects and functions, Import data in various formats (both local and from online sources), Writing your own R functions.
+## 6: Why, When and How of Writing Your Own R Functions
+**Topics**: , Using R scripts and Rmarkdown files, Import data in various formats both local and from online sources, The basics of writing your own functions that promote code robustness, reduce duplication and facilitate code re-use.
 
-**Goal**: 
-- Appreciate best practices for organizing reproducible computational projects.  
-- Use existing programs at the UNIX command line to analyze bioinformatics data,
-- Understand IO Redirection, Streams and pipes,  
-- Think in terms of modular workflows for batch processing,  
-- Understand best practices for organizing computational projects.  
+**Goals**:
+- Be able to import data in various flat file formats from both local and online sources.
+- Understand the structure and syntax of R functions and how to view the code of any R function.
+- Understand when you should be writing functions.
+- Be able to follow a step by step process of going from a working code snippet to a more robust function.
 
-<!--
-Learn how to obtain a remote data file from the command line.
-Understand how Unix pipes and output redirection works.
-Use simple Unix tools to investigate, search and summarize a data file.
-  * What flags will make the `ls` command write out the files sizes in “human-friendly” mode?
-  * What flag will make the `rm` command ask for permission when removing a file?
-  * What flag will make the `cp` command ask for permission if the copy would overwrite an existing file (this is called clobbering)?
+**Material**:
+- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture6-BIMM143-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture6-BIMM143-small.pdf){:.no-push-state},
+- Flat files for importing with read.table: [test1.txt]({{ site.baseurl }}/class-material/test1.txt){:.no-push-state}, [test2.txt]({{ site.baseurl }}/class-material/test2.txt){:.no-push-state}, [test3.txt]({{ site.baseurl }}/class-material/test3.txt){:.no-push-state}.  
+- Lab: [Hands-on section worksheet]({{ site.baseurl }}/class-material/lecture6-BIMM143_W18.pdf){:.no-push-state},  
+- [Muddy point assessment](https://goo.gl/forms/i5FWaVxlwb4Vxyim1){:.no-push-state}
 
--->
 
-**Material**:  
-
- 
 **Homework**:   
-- Questions,  
-  * List an unexpected feature of a command of your choice. A feature that you would have not expected when reading about the command.
-  * The file [SGD_features.tab](http://downloads.yeastgenome.org/curation/chromosomal_feature/SGD_features.tab) file contains the annotations for genomic features of the Yeast genome. The feature type is stored in the second column.
-    * Create a file that counts how many times does each type occur.
-    * What command would show the top ten most common features?
-    * What command would show the least common features?
+- See **Q6** of the [hands-on lab sheet above]({{ site.baseurl }}/class-material/lecture6-BIMM143_W18.pdf){:.no-push-state}. This entails turning a supplied code snippet into a more robust and re-usable function that will take any of the three listed input proteins and plot the effect of drug binding. Note assessment rubric and submission instructions within document. (Submission deadline: 9am **Th, 02/08**).    
+- The remainder of this units homework is all [via **DataCamp**](https://www.datacamp.com/groups/introduction-to-bioinformatics-bimm-143/assignments){:.no-push-state}.   
+ 
 
-<!--
-cat SGD_features.tab | cut -f 2 > types.txt
-cat types.txt | sort | uniq -c | wc -1
-cat types.txt | sort | uniq -c | head
---> 
-
-- Readings:   
-  * A Quick Guide to Organizing Computational Biology Projects, [Plos Comp Bio, 2009](http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1000424)
-  * Blog posts on [Designing projects](http://nicercode.github.io/blog/2013-04-05-projects/) and a [research workflow](http://carlboettiger.info/2012/05/06/research-workflow.html) based on github.
 
 
 <hr>
 <a name="7"></a>
 <br>
 
-## 7: Bioinformatics data analysis with R    
-**Topics**: R language basics and the RStudio IDE, Major R data structures and functions, Using R for data exploration and visualization.  R scripts and R Markdown.  
+## 7: Using CRAN and Bioconductor Packages for Bioinformatics      
+**Topics**: More on how to write R functions with worked examples. Further extending functionality and utility with R packages, Obtaining R packages from CRAN and Bioconductor, Working with Bio3D for molecular data, Managing genome-scale data with bioconductor.
 
-**Goal**: 
-- Familiarity with R's basic syntax,  
-- Be able to use R to read and parse comma-separated (.csv) formatted files ready for subsequent analysis,  
-- Familiarity with major R data structures (vectors, matrices and data.frames),  
-- Understand the basics of using functions (arguments, vectorizion and re-cycling).  
+**Goals**: 
+- Be able to find and install R packages from CRAN and bioconductor,  
+- Understand how to find and use package vignettes, demos, documentation, tutorials and source code repository where available.     
+- Be able to write and (re)use basic R scripts to aid with reproducibility.  
 
- 
 **Material**:  
+
 
  
 **Homework**:   
-- [DataCamp Assignments!](https://www.datacamp.com/groups/foundations-of-bioinformatics-bggn-213/details){:.no-push-state}.    
+- This units homework is all [via **DataCamp**](https://www.datacamp.com/groups/introduction-to-bioinformatics-bimm-143/assignments){:.no-push-state}.   
 
 
 
