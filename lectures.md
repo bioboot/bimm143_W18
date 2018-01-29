@@ -271,11 +271,17 @@ Detecting remote sequence similarity, Database searching beyond BLAST, PSI-BLAST
 - Be able to write and (re)use basic R scripts to aid with reproducibility.  
 
 **Material**:  
-
-
+- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture07-BIMM143-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture07-BIMM143-small.pdf){:.no-push-state},  
+- [Collaborative Google Doc based notes on selected R packages](https://docs.google.com/document/d/1sFN7u8h2Sz0DwC-wscwJz3kkzf7OOP82oQR4jubvfZQ/edit?usp=sharing){:.no-push-state},    
+- [Introductory tutorial on R packages](https://www.datacamp.com/community/tutorials/r-packages-guide){:.no-push-state},  
+- [Muddy point assessment](https://goo.gl/forms/lghN1iI2fjfwxpvq2){:.no-push-state}.      
+ 
  
 **Homework**:   
-- This units homework is all [via **DataCamp**](https://www.datacamp.com/groups/introduction-to-bioinformatics-bimm-143/assignments){:.no-push-state}.   
+ See **Q6** from the last days [hands-on lab sheet above]({{ site.baseurl }}/class-material/lecture6-BIMM143_W18.pdf){:.no-push-state}. This entails turning a supplied code snippet into a more robust and re-usable function that will take any of the three listed input proteins and plot the effect of drug binding. Note assessment rubric and submission instructions within document. (Submission deadline: 9am **Th, 02/08**).    
+- The remainder of this units homework is all [via **DataCamp**](https://www.datacamp.com/groups/introduction-to-bioinformatics-bimm-143/assignments){:.no-push-state}.   
+ 
+
 
 
 

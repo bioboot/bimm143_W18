@@ -1,6 +1,7 @@
 ## Name:  rescale.R
 ## Description:  
-##        Example function from lecture 9 and 10 of BGGN-213
+##        Example function to rescale values between 0 and 1
+##         Used purely to demo function writing process.
 ## Date:  2017-10-30   (11:25:14 PDT on Mon, Oct 30)
 ## Usage:  
 ##         source("http://tinyurl.com/rescale-R")
