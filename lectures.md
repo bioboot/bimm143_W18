@@ -20,17 +20,17 @@ All Lectures are Tu/Th 9:00-12:00 pm in Warren Lecture Hall 2015 (WLH 2015) ([Ma
 |   |   |   |
 | 5 | Tu, 01/23 | [**Data exploration and visualization in R**](#5) <br> The exploratory data analysis mindset, Data visualization best practices, Using and customizing base graphics (scatterplots, histograms, bar graphs and boxplots), Building more complex charts with ggplot and rgl | 
 |   |   |   |
-| 6 | Th, 01/25 | [**Working with R**](#6) <br> Best practices for organizing reproducible computational projects, Using R scripts and Rmarkdown files, More on R data structures, objects and functions, Efficient R programming, Import data in various formats (both local and from online sources), Writing your own R functions | 
+| 6 | Th, 01/25 | [**Why, when and how of writing your own R functions**](#6) <br> The basics of writing your own functions that promote code robustness, reduce duplication and facilitate code re-use | 
 |   |   |   |
-| 7 | Tu, 01/30 | [**Why, when and how of writing your own R functions**](#7) <br> The basics of writing your own functions that promote code robustness, reduce duplication and facilitate code re-use | 
+| 7 | Tu, 01/30 | [**Bioinformatics R packages from CRAN and BioConductor**](#7) <br> Extending functionality and utility with R packages, Obtaining R packages from CRAN and BioConductor, Working with Bio3D for molecular data | 
 |   |   |   |
-| 8 | Th, 02/01 | [**Bioinformatics R packages from CRAN and BioConductor**](#8) <br> Extending functionality and utility with R packages, Obtaining R packages from CRAN and BioConductor, Working with Bio3D for molecular data | 
+| 8 | Th, 02/01 | [**Introduction to Machine Learning for Bioinformatics 1**](#8) <br> Unsupervised learning, K-means clustering, Hierarchical clustering, Heatmap representations. Dimensionality reduction, Principal Component Analysis (PCA), Practical considerations and best practices for the analysis and visualization of high dimensional datasets | 
 |   |   |   |
 | 9 | Tu, 02/06 | [**Comparative protein sequence analysis and phylogenetics**](#10) <br> Using R packages for The basics of writing your own functions that promote code robustness, reduce duplication and facilitate code re-use | 
 |   |   |   |
 | 10 | Th, 02/08 | **Project:** [**Find a gene assignment (Part 1)**](#10) <br> Principles of database searching, sequence analysis, structure analysis along with [**More on writing your own R functions**](#10) <br> Extensive hands-on demonstrations and practice writing your own functions  | 
 |   |   |   |
-| 11 | Tu, 02/13 | [**Working with R packages for bioinformatics**](#11) <br> Extending functionality and utility with R packages, Obtaining R packages from CRAN and bioconductor, Working with Bio3D for molecular data, Managing and analyzing genome-scale data with bioconductor | 
+| 11 | Tu, 02/13 | [**Working with R packages for bioinformatics**](#11) <br> Working with Bio3D for molecular data, Managing and analyzing genome-scale data with bioconductor | 
 |   |   |   |
 | 12 | Th, 02/15 | [**Structural Bioinformatics (Part 1)**](#12) <br> Protein structure function relationships, Protein structure and visualization resources, Modeling energy as a function of structure | 
 |   |   |   |
@@ -248,7 +248,8 @@ Detecting remote sequence similarity, Database searching beyond BLAST, PSI-BLAST
 - Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture6-BIMM143-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture6-BIMM143-small.pdf){:.no-push-state},
 - Flat files for importing with read.table: [test1.txt]({{ site.baseurl }}/class-material/test1.txt){:.no-push-state}, [test2.txt]({{ site.baseurl }}/class-material/test2.txt){:.no-push-state}, [test3.txt]({{ site.baseurl }}/class-material/test3.txt){:.no-push-state}.  
 - Lab: [Hands-on section worksheet]({{ site.baseurl }}/class-material/lecture6-BIMM143_W18.pdf){:.no-push-state},  
-- [Muddy point assessment](https://goo.gl/forms/i5FWaVxlwb4Vxyim1){:.no-push-state}
+- Feedback: [Muddy point assessment](https://goo.gl/forms/i5FWaVxlwb4Vxyim1){:.no-push-state},  
+- Feedback: [Responses](https://docs.google.com/forms/d/e/1FAIpQLSez4_tN42yBa-C3_W7UudnHDoO1dZsK7aYrXo5fYJq5KDKRmg/viewanalytics){:.no-push-state}.  
 
 
 **Homework**:   
@@ -274,7 +275,8 @@ Detecting remote sequence similarity, Database searching beyond BLAST, PSI-BLAST
 - Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture07-BIMM143-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture07-BIMM143-small.pdf){:.no-push-state},  
 - [Collaborative Google Doc based notes on selected R packages](https://docs.google.com/document/d/1sFN7u8h2Sz0DwC-wscwJz3kkzf7OOP82oQR4jubvfZQ/edit?usp=sharing){:.no-push-state},    
 - [Introductory tutorial on R packages](https://www.datacamp.com/community/tutorials/r-packages-guide){:.no-push-state},  
-- [Muddy point assessment](https://goo.gl/forms/lghN1iI2fjfwxpvq2){:.no-push-state}.      
+- Feedback: [Muddy point assessment](https://goo.gl/forms/lghN1iI2fjfwxpvq2){:.no-push-state}.      
+- Feedback: [Responses](https://docs.google.com/forms/d/e/1FAIpQLScapTSuiHiMvNHB-6MWV4PzmBAw2TyD4LaaibG1d7GcPCcA2A/viewanalytics){:.no-push-state}.  
  
  
 **Homework**:   
@@ -289,22 +291,28 @@ Detecting remote sequence similarity, Database searching beyond BLAST, PSI-BLAST
 <a name="8"></a>
 <br>
 
-## 8: Data exploration and visualization in R    
-**Topics**: The exploratory data analysis mindset, Data visualization best practices, Simple base graphics (including scatterplots, histograms, bar graphs, dot chats, boxplots and heatmaps), Building more complex charts with ggplot.
+## 8: Introduction to Machine Learning for Bioinformatics    
+**Topics**: Unsupervised learning, supervised learning and reinforcement learning; Focus on unsupervised learning, K-means clustering, Hierarchical clustering, Heatmap representations. Dimensionality reduction, visualization and analysis, Principal Component Analysis (PCA)
+Practical considerations and best practices for the analysis of high dimensional datasets. 
 
 **Goal**: 
-- Appreciate the major elements of exploratory data analysis and why it is important to visualize data.
-- Be conversant with data visualization best practices and understand how good visualizations optimize for the human visual system. 
-- Be able to generate  informative graphical displays including scatterplots, histograms, bar graphs, boxplots, dendrograms and heatmaps and thereby gain exposure to the extensive graphical capabilities of R.
-- Appreciate that you can build even more complex charts with ggplot and additional R packages such as rgl.
+- Understand the major differences between unsupervised and supervised learning.
+- Be able to create k-means and hierarchical cluster models in R
+- Be able to describe how the k-means and bottom-up hierarchical cluster algorithms work.
+- Know how to visualize and integrate clustering results and select good cluster models.
+- Be able to describe in general terms how PCA works and its major objectives. 
+- Be able to apply PCA to high dimensional datasets and visualize and integrate PCA results (e.g identify outliers, find structure in features and aid in complex dataset visualization).
 
 
 
 **Material**:  
+- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture08-BIMM143-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture08-BIMM143-small.pdf){:.no-push-state},  
+- Lab: [Hands-on section worksheet for PCA]({{ site.baseurl }}/class-material/UK_food_pca//){:.no-push-state}  
+- Data files: [UK_foods.csv]({{ site.baseurl }}/class-material/UK_foods.csv){:.no-push-state}.   
+- [Introduction to PCA site](http://setosa.io/ev/principal-component-analysis/){:.no-push-state}. 
+- Feedback: [Muddy point assessment](https://goo.gl/forms/VY9Dub02zktyCE9X2){:.no-push-state}.      
 
  
-**Homework**:   
-- This units homework is all [via **DataCamp** (see lecture 7 above)](https://www.datacamp.com/groups/foundations-of-bioinformatics-bggn-213/details#tab_assignments).   
 
 
 
@@ -312,7 +320,9 @@ Detecting remote sequence similarity, Database searching beyond BLAST, PSI-BLAST
 <a name="9"></a>
 <br>
 
-## 9: Why, When and How of Writing Your Own R Functions  
+## To Be Updated
+
+## 9: Comparative protein sequence analysis and phylogenetics  
 **Topics**: Import data in various formats both local and from online sources, The basics of writing your own functions that promote code robustness, reduce duplication and facilitate code re-use.  
 
 **Goals**:   
@@ -332,8 +342,10 @@ Detecting remote sequence similarity, Database searching beyond BLAST, PSI-BLAST
 <a name="10"></a>
 <br>
 
-## 10: Using CRAN and Bioconductor Packages for Bioinformatics      
-**Topics**: More on how to write R functions with worked examples. Further extending functionality and utility with R packages, Obtaining R packages from CRAN and Bioconductor, Working with Bio3D for molecular data, Managing genome-scale data with bioconductor.
+## To Be Updated
+
+## 10: (**Project:**) Find a gene assignment Part 1        
+**Topics**: Principles of database searching, sequence analysis, structure analysis along with More on how to write R functions with worked examples.
 
 **Goals**: 
 - Be able to find and install R packages from CRAN and bioconductor,  
