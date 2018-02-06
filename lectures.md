@@ -24,9 +24,9 @@ All Lectures are Tu/Th 9:00-12:00 pm in Warren Lecture Hall 2015 (WLH 2015) ([Ma
 |   |   |   |
 | 7 | Tu, 01/30 | [**Bioinformatics R packages from CRAN and BioConductor**](#7) <br> Extending functionality and utility with R packages, Obtaining R packages from CRAN and BioConductor, Working with Bio3D for molecular data | 
 |   |   |   |
-| 8 | Th, 02/01 | [**Introduction to Machine Learning for Bioinformatics 1**](#8) <br> Unsupervised learning, K-means clustering, Hierarchical clustering, Heatmap representations. Dimensionality reduction, Principal Component Analysis (PCA), Practical considerations and best practices for the analysis and visualization of high dimensional datasets | 
+| 8 | Th, 02/01 | [**Introduction to Machine Learning for Bioinformatics 1**](#8) <br> Unsupervised learning, K-means clustering, Hierarchical clustering, Heatmap representations. Dimensionality reduction, Principal Component Analysis (PCA)  | 
 |   |   |   |
-| 9 | Tu, 02/06 | [**Comparative protein sequence analysis and phylogenetics**](#10) <br> Using R packages for The basics of writing your own functions that promote code robustness, reduce duplication and facilitate code re-use | 
+| 9 | Tu, 02/06 | [**Unsupervised Learning Mini-Project**](#10) <br> Longer hands-on session with unsupervised learning analysis of cancer cells further highlighting Practical considerations and best practices for the analysis and visualization of high dimensional datasets | 
 |   |   |   |
 | 10 | Th, 02/08 | **Project:** [**Find a gene assignment (Part 1)**](#10) <br> Principles of database searching, sequence analysis, structure analysis along with [**More on writing your own R functions**](#10) <br> Extensive hands-on demonstrations and practice writing your own functions  | 
 |   |   |   |
@@ -34,7 +34,7 @@ All Lectures are Tu/Th 9:00-12:00 pm in Warren Lecture Hall 2015 (WLH 2015) ([Ma
 |   |   |   |
 | 12 | Th, 02/15 | [**Structural Bioinformatics (Part 1)**](#12) <br> Protein structure function relationships, Protein structure and visualization resources, Modeling energy as a function of structure | 
 |   |   |   |
-| 13 | Tu, 02/20 | Optional Statistical Foundations of Bioinformatics or [**Structural Bioinformatics (Part 2)**](#13) <br> Homology modeling, Predicting functional dynamics, Inferring protein function from structure  | 
+| 13 | Tu, 02/20 | [**Structural Bioinformatics (Part 2)**](#13) <br> Homology modeling, Predicting functional dynamics, Inferring protein function from structure  | 
 |   |   |   |
 | 14 | Th, 02/22 | [**Bioinformatics in drug discovery and design**](#13) <br> Target identification, Lead identification, Small molecule docking methods, Protein motion and conformational variants, Molecular simulation and drug optimization | 
 |   |   |   |
@@ -310,7 +310,8 @@ Practical considerations and best practices for the analysis of high dimensional
 - Lab: [Hands-on section worksheet for PCA]({{ site.baseurl }}/class-material/UK_food_pca//){:.no-push-state}  
 - Data files: [UK_foods.csv]({{ site.baseurl }}/class-material/UK_foods.csv){:.no-push-state}.   
 - [Introduction to PCA site](http://setosa.io/ev/principal-component-analysis/){:.no-push-state}. 
-- Feedback: [Muddy point assessment](https://goo.gl/forms/VY9Dub02zktyCE9X2){:.no-push-state}.      
+- Feedback: [Muddy point assessment](https://goo.gl/forms/VY9Dub02zktyCE9X2){:.no-push-state}.  
+- Feedback: [Responses](https://docs.google.com/forms/d/e/1FAIpQLSd1UoERB-ADt_mUsWAnR50GDqV4BGm6cMvWUNH6fymwDRUvcg/viewanalytics){:.no-push-state}.        
 
  
 
@@ -320,22 +321,18 @@ Practical considerations and best practices for the analysis of high dimensional
 <a name="9"></a>
 <br>
 
-## To Be Updated
-
-## 9: Comparative protein sequence analysis and phylogenetics  
-**Topics**: Import data in various formats both local and from online sources, The basics of writing your own functions that promote code robustness, reduce duplication and facilitate code re-use.  
+## 9: Unsupervised Learning Mini-Project  
+**Topics**: Longer hands-on session with unsupervised learning analysis of cancer cells, Practical considerations and best practices for the analysis and visualization of high dimensional datasets.  
 
 **Goals**:   
-- Be able to import data in various flat file formats from both local and online sources.  
-- Understand the structure and syntax of R functions and how to view the code of any R function.
-- Understand when you should be writing functions.  
-- Be able to follow a step by step process of going from a working code snippet to a more robust function.  
+- Be able to import data and prepare for unsupervised learning analysis.
+- Be able to apply and test combinations of PCA, k-means and hierarchical clustering to high dimensional datasets and critically review results.
 
 **Material**:  
-
- 
-**Homework**:   
-- This units homework is all [via **DataCamp** (see lecture 7 above)](https://www.datacamp.com/groups/foundations-of-bioinformatics-bggn-213/details#tab_assignments).   
+- Lab: [Hands-on section worksheet for PCA]({{ site.baseurl }}/class-material/lecture9_lab/){:.no-push-state}  
+- Data file: [WisconsinCancer.csv]({{ site.baseurl }}/class-material/WisconsinCancer.csv){:.no-push-state}.   
+- Bio3D PCA App: [http://bio3d.ucsd.edu](http://bio3d.ucsd.edu){:.no-push-state}.   
+- Feedback: [Muddy point assessment](https://goo.gl/forms/VY9Dub02zktyCE9X2){:.no-push-state}.   
 
 
 <hr>
@@ -357,7 +354,7 @@ Practical considerations and best practices for the analysis of high dimensional
 
  
 **Homework**:   
-- Complete question 6 from the [lecture 9 worksheet]({{ site.baseurl }}/class-material/lecture9-BGGN213_F17.pdf){:.no-push-state}. This entails turning a supplied code snippet into a more robust and re-usable function that will take any of the three listed input proteins and plot the effect of drug binding. Note assessment rubric within document. (Submission deadline: 9am **Th, 11/09**).  
+This is a take-home project assignment.  
 
 
 
