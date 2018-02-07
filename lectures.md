@@ -329,7 +329,7 @@ Practical considerations and best practices for the analysis of high dimensional
 - Be able to apply and test combinations of PCA, k-means and hierarchical clustering to high dimensional datasets and critically review results.
 
 **Material**:  
-- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture09-BIMM143-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture09-BIMM143-small.pdf){:.no-push-state},  
+- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture09-BIMM143_large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture09-BIMM143_small.pdf){:.no-push-state},  
 - Lab: [Hands-on section worksheet for PCA]({{ site.baseurl }}/class-material/lecture9_lab/){:.no-push-state}  
 - Data file: [WisconsinCancer.csv]({{ site.baseurl }}/class-material/WisconsinCancer.csv){:.no-push-state}.   
 - Bio3D PCA App: [http://bio3d.ucsd.edu](http://bio3d.ucsd.edu){:.no-push-state}.   
@@ -340,22 +340,17 @@ Practical considerations and best practices for the analysis of high dimensional
 <a name="10"></a>
 <br>
 
-## To Be Updated
 
-## 10: (**Project:**) Find a gene assignment Part 1        
-**Topics**: Principles of database searching, sequence analysis, structure analysis along with More on how to write R functions with worked examples.
+## 10: (**Project:**) Find a Gene Assignment Part 1        
+The [**find-a-gene project**]({{ site.baseurl }}/class-material/Find_A_Gene_Project.pdf){:.no-push-state} is a required assignment for BIMM-143. The objective with this assignment is for you to demonstrate your grasp of database searching, sequence analysis, structure analysis and the R environment that we have covered to date in class.
 
-**Goals**: 
-- Be able to find and install R packages from CRAN and bioconductor,  
-- Understand how to find and use package vignettes, demos, documentation, tutorials and source code repository where available.     
-- Be able to write and (re)use basic R scripts to aid with reproducibility.  
-
-**Material**:  
-
-
+You may wish to consult the scoring rubric at the end of the above linked project description and the [**example report**]({{ site.baseurl }}/class-material/Find_A_Gene_Project_Example.pdf){:.no-push-state} for format and content guidance.  
  
-**Homework**:   
-This is a take-home project assignment.  
+Your responses to questions Q1-Q4 are due at the beginning of class **Thursday February 22nd** (02/22/18).   
+
+The complete assignment, including responses to all questions, is due at the beginning of class **Thursday March 13th** (03/13/18).  
+
+Late responses will not be accepted under any circumstances.  
 
 
 
