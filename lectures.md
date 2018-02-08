@@ -28,7 +28,7 @@ All Lectures are Tu/Th 9:00-12:00 pm in Warren Lecture Hall 2015 (WLH 2015) ([Ma
 |   |   |   |
 | 9 | Tu, 02/06 | [**Unsupervised Learning Mini-Project**](#9) <br> Longer hands-on session with unsupervised learning analysis of cancer cells further highlighting Practical considerations and best practices for the analysis and visualization of high dimensional datasets | 
 |   |   |   |
-| 10 | Th, 02/08 | **Project:** [**Find a gene assignment (Part 1)**](#10) <br> Principles of database searching, sequence analysis, structure analysis along with [**More on writing your own R functions**](#10) <br> Extensive hands-on demonstrations and practice writing your own functions  | 
+| 10 | Th, 02/08 | **Project:** [**Find a gene assignment (Part 1)**](#10) <br> Principles of database searching, sequence analysis, structure analysis along with [**Hands-on with Git**](#10) <br> How to perform common operations with the Git version control system. We will also cover the popular social code-hosting platforms GitHub and BitBucket.  | 
 |   |   |   |
 | 11 | Tu, 02/13 | [**Working with R packages for bioinformatics**](#11) <br> Working with Bio3D for molecular data, Managing and analyzing genome-scale data with bioconductor | 
 |   |   |   |
@@ -351,6 +351,12 @@ Your responses to questions Q1-Q4 are due at the beginning of class **Thursday F
 The complete assignment, including responses to all questions, is due at the beginning of class **Thursday March 13th** (03/13/18).  
 
 Late responses will not be accepted under any circumstances.  
+
+## Bonus: Hands-on with Git  
+Today’s lecture and hands-on sessions with introduce Git, currently the most popular version control system. We will learn how to perform common operations with Git and RStudio. We will also cover the popular social code-hosting platforms GitHub and BitBucket.  
+
+- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture10-BIMM143_large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture10-BIMM143_small.pdf){:.no-push-state},  
+- Lab: [Hands-on with Git](http://tinyurl.com/rclass-github){:.no-push-state}  
 
 
 
