@@ -30,17 +30,17 @@ All Lectures are Tu/Th 9:00-12:00 pm in Warren Lecture Hall 2015 (WLH 2015) ([Ma
 |   |   |   |
 | 10 | Th, 02/08 | **Project:** [**Find a gene assignment (Part 1)**](#10) <br> Principles of database searching, sequence analysis, structure analysis along with [**Hands-on with Git**](#10) <br> How to perform common operations with the Git version control system. We will also cover the popular social code-hosting platforms GitHub and BitBucket.  | 
 |   |   |   |
-| 11 | Tu, 02/13 | [**Working with R packages for bioinformatics**](#11) <br> Working with Bio3D for molecular data, Managing and analyzing genome-scale data with bioconductor | 
+| 11 | Tu, 02/13 | [**Structural Bioinformatics (Part 1)**](#11) <br> Protein structure function relationships, Protein structure and visualization resources, Modeling energy as a function of structure | 
 |   |   |   |
-| 12 | Th, 02/15 | [**Structural Bioinformatics (Part 1)**](#12) <br> Protein structure function relationships, Protein structure and visualization resources, Modeling energy as a function of structure | 
+| 12 | Th, 02/15 | [**Bioinformatics in drug discovery and design**](#12) <br> Target identification, Lead identification, Small molecule docking methods, Protein motion and conformational variants, Molecular simulation and drug optimization | 
 |   |   |   |
 | 13 | Tu, 02/20 | [**Structural Bioinformatics (Part 2)**](#13) <br> Homology modeling, Predicting functional dynamics, Inferring protein function from structure  | 
 |   |   |   |
-| 14 | Th, 02/22 | [**Bioinformatics in drug discovery and design**](#13) <br> Target identification, Lead identification, Small molecule docking methods, Protein motion and conformational variants, Molecular simulation and drug optimization | 
+| 14 | Th, 02/22 | [**Genome informatics and high throughput sequencing**](#13) <br> Searching genes and gene functions, Genome databases, Variation in the genome, Sequencing technologies past, present and future  (Sanger, Shotgun, PacBio, Illumina, toward the $500 human genome), Biological applications of sequencing, Bioinformatics analysis methods | 
 |   |   |   |
-| 15 | Tu, 02/27 | [**Genome informatics and high throughput sequencing**](#15) <br> Searching genes and gene functions, Genome databases, Variation in the genome, Sequencing technologies past, present and future  (Sanger, Shotgun, PacBio, Illumina, toward the $500 human genome), Biological applications of sequencing, Bioinformatics analysis methods | 
+| 15 | Tu, 02/27 | [**Major bioinformatics resources for genomics**](#15) <br> Databases, tools and visualization resources from NCBI, EBI &amp; UCSC, The Galaxy platform for quality control and analysis | 
 |   |   |   |
-| 16 | Th, 03/01 | [**Major bioinformatics resources for genomics.**](#16) <br> Databases, tools and visualization resources from NCBI, EBI &amp; UCSC, The Galaxy platform for quality control and analysis; FASTQ, SAM and BAM file formats; Sample workflows with FASTQC and bowtie2 | 
+| 16 | Th, 03/01 | [**Transcriptomics and the analysis of RNA-Seq data**](#16) <br> More with the Galaxy platform for quality control and analysis; FASTQ, SAM and BAM file formats; Sample workflows with FASTQC and bowtie2 and others| 
 |   |   |   |
 | 17 | Tu, 03/06 | [**Immunoinformatics resources for the understanding of immunological information**](#17) <br> Guest lecture from Dr. Bjoern Peters (LIAI) with topics including: Epitope prediction,  Reverse vaccinology, Immune system modeling, Disease diagnosis and therapy along with implications for the development of personalized medicine. | 
 |   |   |   |
@@ -375,6 +375,12 @@ Today’s lecture and hands-on sessions with introduce Git, currently the most p
 
 
 **Material**:  
+- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture11-BIMM143_large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture11-BIMM143_small.pdf){:.no-push-state},  
+- Lab: [Hands-on section worksheet for VMD and Bio3D]({{ site.baseurl }}/class-material/lecture11-BIMM143_W18.pdf){:.no-push-state}  
+- Software links: [VMD download](http://www.ks.uiuc.edu/Development/Download/download.cgi){:.no-push-state},  [MUSCLE download](https://www.drive5.com/muscle/downloads.htm){:.no-push-state}  
+- Feedback: [Muddy point assessment](https://goo.gl/forms/elweVfSycVIt8Ecd2){:.no-push-state}.  
+
+
 
 
 
