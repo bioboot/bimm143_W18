@@ -406,20 +406,11 @@ Today’s lecture and hands-on sessions with introduce Git, currently the most p
 <a name="13"></a>
 <br>
 
-## 13: Project Assignment Introduction! 
+## 13: Structural Bioinformatics (Part 2) 
 
-The [**find-a-gene project**]({{ site.baseurl }}/class-material/Find_A_Gene_Project.pdf){:.no-push-state} is a required assignment for BGGN-213. The objective with this assignment is for you to demonstrate your grasp of database searching, sequence analysis, structure analysis and the R environment that we have covered to date in class.
+Homology modeling, Predicting functional dynamics, Inferring protein function from structure
 
-You may wish to consult the scoring rubric at the end of the above linked project description and the [**example report**]({{ site.baseurl }}/class-material/Find_A_Gene_Project_Example.pdf){:.no-push-state} for format and content guidance.  
- 
-Your responses to questions Q1-Q4 are due at the beginning of class **Thursday November 16th** (11/16/17).   
-
-The complete assignment, including responses to all questions, is due at the beginning of class **Tuesday December 5th** (12/5/17).  
-
-Late responses will not be accepted under any circumstances.  
-
-### Hands-on with Git:  
-Today’s lecture and hands-on sessions with introduce Git, currently the most popular version control system. We will learn how to perform common operations with Git that you’ll do every day. We will also cover the popular social code-hosting platforms GitHub and BitBucket.  
+## To Be Updated... 
 
 
 
