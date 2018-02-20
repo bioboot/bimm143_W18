@@ -429,6 +429,14 @@ Today’s lecture and hands-on sessions with introduce Git, currently the most p
 - [SAM/BAM file format description]({{ site.baseurl }}//class-material/sam_format/){:.no-push-state}.  
 - Feedback: [Muddy point assessment](https://goo.gl/forms/EcfQU3yG4x0uIaLw2){:.no-push-state}.  
 
+## IPs 
+- 149.165.169.245  
+- 129.114.17.65  
+- 129.114.17.251  
+- 149.165.156.226  
+- 149.165.170.88  
+- 129.114.17.244  
+
 
 <hr>
 <a name="14"></a>
