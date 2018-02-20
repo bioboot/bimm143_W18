@@ -411,14 +411,25 @@ Today’s lecture and hands-on sessions with introduce Git, currently the most p
 <a name="13"></a>
 <br>
 
-## 13: Structural Bioinformatics (Part 2) 
+## 13: Genome informatics and high throughput sequencing (Part 1) 
+**Topics**: Genome sequencing technologies past, present and future (Sanger, Shotgun, PacBio, Illumina, toward the $500 human genome), Biological applications of sequencing, Variation in the genome, RNA-Sequencing for gene expression analysis; Major genomic databases, tools and visualization resources from the EBI & UCSC, The Galaxy platform for quality control and analysis; Sample Galaxy RNA-Seq workflow with FastQC and Bowtie2
 
+**Goals**: 
+- Appreciate and describe in general terms the rapid advances in sequencing technologies and the new areas of investigation that these advances have made accessible.  
+- Understand the process by which genomes are currently sequenced and the bioinformatics processing and analysis required for their interpretation.  
+- For a genomic region of interest (e.g. the neighborhood of a particular SNP), use a genome browser to view nearby genes, transcription factor binding regions, epigenetic information, etc.
+- Be able to use the Galaxy platform for basic RNA-Seq analysis from raw reads to expression value determination.  
+- Understand the FASTQ file format and the information it holds. 
+- Understand the [SAM/BAM file format]({{ site.baseurl }}//class-material/sam_format/){:.no-push-state} and the information it holds.  
+
+
+**Material**:  
 Homology modeling, Predicting functional dynamics, Inferring protein function from structure
 
 ## To Be Updated... 
 
 
-
+- Feedback: [Muddy point assessment](https://goo.gl/forms/EcfQU3yG4x0uIaLw2){:.no-push-state}.  
 
 <hr>
 <a name="14"></a>
