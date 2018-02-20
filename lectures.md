@@ -34,23 +34,22 @@ All Lectures are Tu/Th 9:00-12:00 pm in Warren Lecture Hall 2015 (WLH 2015) ([Ma
 |   |   |   |
 | 12 | Th, 02/15 | [**Bioinformatics in drug discovery and design**](#12) <br> Target identification, Lead identification, Small molecule docking methods, Protein motion and conformational variants, Molecular simulation and drug optimization | 
 |   |   |   |
-| 13 | Tu, 02/20 | [**Structural Bioinformatics (Part 2)**](#13) <br> Homology modeling, Predicting functional dynamics, Inferring protein function from structure  | 
+| 13 | Tu, 02/20 | [**Genome informatics and high throughput sequencing (Part 1)**](#13) <br> Genome sequencing technologies past, present and future; Biological applications of sequencing, Analysis of variation in the genome, and gene expression; The Galaxy platform along with resources from the EBI & UCSC; Sample Galaxy RNA-Seq workflow with FastQC and Bowtie2 | 
 |   |   |   |
-| 14 | Th, 02/22 | [**Genome informatics and high throughput sequencing**](#13) <br> Searching genes and gene functions, Genome databases, Variation in the genome, Sequencing technologies past, present and future  (Sanger, Shotgun, PacBio, Illumina, toward the $500 human genome), Biological applications of sequencing, Bioinformatics analysis methods | 
+| 14 | Th, 02/22 | [**Transcriptomics and the analysis of RNA-Seq data**](#13) <br> RNA-Seq aligners, Differential expression tests, RNA-Seq statistics, Counts and FPKMs and avoiding P-value misuse, Hands-on analysis of RNA-Seq data with R. <br> **N.B.** Find a gene assignment part 1 due today!| 
 |   |   |   |
-| 15 | Tu, 02/27 | [**Major bioinformatics resources for genomics**](#15) <br> Databases, tools and visualization resources from NCBI, EBI &amp; UCSC, The Galaxy platform for quality control and analysis | 
+| 15 | Tu, 02/27 | [**Genome annotation and the interpretation of gene lists**](#15) <br> Gene finding and functional annotation, Functional databases KEGG, InterPro, GO ontologies and functional enrichment | 
 |   |   |   |
-| 16 | Th, 03/01 | [**Transcriptomics and the analysis of RNA-Seq data**](#16) <br> More with the Galaxy platform for quality control and analysis; FASTQ, SAM and BAM file formats; Sample workflows with FASTQC and bowtie2 and others| 
+| 16 | Th, 03/01 | [**Transcriptomics and the analysis of RNA-Seq data**](#16) <br> More with the Galaxy platform and R/Bioconductor; Extended workflows | 
 |   |   |   |
 | 17 | Tu, 03/06 | [**Immunoinformatics resources for the understanding of immunological information**](#17) <br> Guest lecture from Dr. Bjoern Peters (LIAI) with topics including: Epitope prediction,  Reverse vaccinology, Immune system modeling, Disease diagnosis and therapy along with implications for the development of personalized medicine. | 
 |   |   |   |
-| 18 | Tu, 03/08 | [**Transcriptomics and the analysis of RNA-Seq data**](#18) <br> RNA-Seq aligners, Differential expression tests, RNA-Seq statistics, Counts and FPKMs and avoiding P-value misuse, Hands-on analysis of RNA-Seq data with R. <br> **N.B.** Find a gene assignment due on Tuesday 03/08!  | 
+| 18 | Th, 03/08 | [**Essential Statistics for Bioinformatics**](#18) <br> Everything you wanted to know about statistics for bioinformatics but were afraid to ask. Extensive R examples and applications. <br> **N.B.** Find a gene assignment due on Tuesday 03/13!  | 
 |   |   |   |
-| 19 | Th, 03/13 | [**Genome annotation and the interpretation of gene lists**](#19) <br> Gene finding and functional annotation, Functional databases KEGG, InterPro, GO ontologies and functional enrichment | 
+| 19 | Tu, 03/13 | [**Course summary**](#19) <br> Summary of learning goals, Student course evaluation time and exam preparation; **Find a gene assignment due**. | 
 |   |   |   |
-| 20 | Th, 03/15 | [**Course summary**](#20) <br> Summary of learning goals, Student course evaluation time and exam preparation | 
-|   |   |   |
-|   | **TBD** (Th, 03/22) | **Final exam!** |
+| 20 | Th, 03/15 | [**Final exam!**](#20)  | 
+
 
 <br>
 <hr>
@@ -403,8 +402,8 @@ Today’s lecture and hands-on sessions with introduce Git, currently the most p
 - Lab: [Hands-on section worksheet for *In silico* drug docking]({{ site.baseurl }}/class-material/lecture12-BIMM143_W18.pdf){:.no-push-state}  
 - Software download links: [AutoDock Tools](http://mgltools.scripps.edu/downloads){:.no-push-state},  [AutoDock Vina](http://vina.scripps.edu/download.html){:.no-push-state},  [VMD](http://www.ks.uiuc.edu/Development/Download/download.cgi){:.no-push-state},  [MUSCLE](https://www.drive5.com/muscle/downloads.htm){:.no-push-state}  
 - Optional backup files: [1]({{ site.baseurl }}/class-material/config.txt){:.no-push-state}, [2]({{ site.baseurl }}/class-material/1hsg_protein.pdbqt){:.no-push-state}, [3]({{ site.baseurl }}/class-material/indinavir.pdbqt){:.no-push-state}, [log.txt]({{ site.baseurl }}/class-material/log.txt){:.no-push-state}, [all.pdbqt]({{ site.baseurl }}/class-material/all.pdbqt){:.no-push-state}  
-- Feedback: [Muddy point assessment](https://goo.gl/forms/UeIzhvgXFHmecVda2){:.no-push-state}.  
-
+- Feedback: [Muddy point assessment](https://goo.gl/forms/UeIzhvgXFHmecVda2){:.no-push-state}  
+- Feedback: [Responses](https://docs.google.com/forms/d/e/1FAIpQLSd5-3_tu5m81Pkt1wyZSAK0wWMqRD3Hs0GttVyKh9Fa2Nkpag/viewanalytics){:.no-push-state}.
 
 
 <hr>
@@ -424,12 +423,12 @@ Today’s lecture and hands-on sessions with introduce Git, currently the most p
 
 
 **Material**:  
-Homology modeling, Predicting functional dynamics, Inferring protein function from structure
-
-## To Be Updated... 
-
-
+- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/llecture13_BIMM143_W18-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture13_BIMM143_W18-small.pdf){:.no-push-state},
+- [Hands-on section worksheet]({{ site.baseurl }}/class-material/lecture13-BIMM143_W18-lab.pdf){:.no-push-state},
+- RNA-Seq data files: [HG00109_1.fastq]({{ site.baseurl }}/class-material/HG00109_1.fastq){:.no-push-state}, [HG00109_2.fastq]({{ site.baseurl }}/class-material/HG00109_2.fastq){:.no-push-state}, [genes.chr17.gtf]({{ site.baseurl }}/class-material/genes.chr17.gtf){:.no-push-state}, [Expression genotype results]({{ site.baseurl }}/class-material/rs8067378_ENSG00000172057.6.txt){:.no-push-state}, [Example R script]({{ site.baseurl }}/class-material/lecture14_plot.r){:.no-push-state}.
+- [SAM/BAM file format description]({{ site.baseurl }}//class-material/sam_format/){:.no-push-state}.  
 - Feedback: [Muddy point assessment](https://goo.gl/forms/EcfQU3yG4x0uIaLw2){:.no-push-state}.  
+
 
 <hr>
 <a name="14"></a>
@@ -446,6 +445,7 @@ Homology modeling, Predicting functional dynamics, Inferring protein function fr
 
 **Material**:   
 
+# To Be Updated!
 
 
 <hr>
