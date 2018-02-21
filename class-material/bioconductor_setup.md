@@ -3,7 +3,7 @@ layout: page
 title: Bioconductor setup
 ---
 
-As we already noted back in [Lecture 10]({{ site.baseurl }}/lectures/#10) and [Lecture 11]({{ site.baseurl }}/lectures/#11) Bioconductor is a large repository and resource for R packages that focus on analysis of high-throughput genomic data.  
+As we already noted back in [Lecture 7]({{ site.baseurl }}/lectures/#7) Bioconductor is a large repository and resource for R packages that focus on analysis of high-throughput genomic data.  
 
 Bioconductor packages are installed differently than "regular" R packages from CRAN. To install the core Bioconductor packages ([more information here](https://www.bioconductor.org/install/)), copy and paste these lines of code into your R console **one at a time**. 
 
