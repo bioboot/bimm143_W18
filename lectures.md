@@ -442,16 +442,29 @@ Today’s lecture and hands-on sessions with introduce Git, currently the most p
 <a name="14"></a>
 <br>
 
-## 14: Genome informatics and high throughput sequencing  
-**Topics**: Searching genes and gene functions, Genome databases, Variation in the genome, Sequencing technologies past, present and future Sanger, Shotgun, PacBio, Illumina, toward the $500 human genome), Biological applications of sequencing, RNA-Sequencing for gene expression analysis, Bioinformatics analysis methods
+## 14: Transcriptomics and the analysis of RNA-Seq data
+**Topics**: Analysis of RNA-Seq data with R, Differential expression tests, RNA-Seq statistics, Counts and FPKMs, Normalizing for sequencing depth, DESeq2 analysis.
 
-**Goals**: 
-- Appreciate and describe in general terms the rapid advances in sequencing technologies and the new areas of investigation that these advances have made accessible.  
-- Understand the process by which genomes are currently sequenced and the bioinformatics processing and analysis required for their interpretation.  
-- Be able to launch your own cloud based Galaxy server for NGS analysis.
-- Be able to navigate the Galaxy platform, input NGS sequence data and access common NGS tools for sequence analysis.  
+**Goals**:
+- Given an RNA-Seq dataset, find the set of significantly differentially expressed genes and their annotations.
+- Given an RNA-Seq dataset, find the set of significantly differentially expressed genes and their annotations
+- Gain competency with data import, processing and analysis with DESeq2 and other bioconductor packages
+- Understand the structure of count data and metadata required for running analysis
+- Be able to extract, explore, visualize and export results
 
-**Material**:   
+**Material**:
+- Lecture Slides: [PDF]({{ site.baseurl }}/class-material/tmp.pdf){:.no-push-state}.
+- Detailed [Bioconductor setup]({{ site.baseurl }}//class-material/bioconductor_setup/){:.no-push-state} instructions.
+- [Hands-on section worksheet]({{ site.baseurl }}/class-material/lecture14-BIMM143_W18-lab/){:.no-push-state}
+- Data files: [airway_scaledcounts.csv]({{ site.baseurl }}/class-material/airway_scaledcounts.csv){:.no-push-state}, [airway_metadata.csv]({{ site.baseurl }}/class-material/airway_metadata.csv){:.no-push-state}, [annotables_grch38.csv]({{ site.baseurl }}/class-material/annotables_grch38.csv){:.no-push-state}.
+- Muddy point assessment
+
+
+**Readings**:
+ - Excellent review article: [Conesa et al. A survey of best practices for RNA-seq data analysis. _Genome Biology_ 17:13 (2016)](http://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-0881-8){:.no-push-state}.
+ - An oldey but a goodie: [Soneson et al. "Differential analyses for RNA-seq: transcript-level estimates improve gene-level inferences." _F1000Research_ 4 (2015)](https://f1000research.com/articles/4-1521/v2).
+ - Abstract and introduction sections of: [Himes et al. "RNA-Seq transcriptome profiling identifies CRISPLD2 as a glucocorticoid responsive gene that modulates cytokine function in airway smooth muscle cells." _PLoS ONE_ 9.6 (2014): e99625](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0099625){:.no-push-state}.
+
 
 # To Be Updated!
 
