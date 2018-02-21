@@ -447,13 +447,12 @@ Today’s lecture and hands-on sessions with introduce Git, currently the most p
 
 **Goals**:
 - Given an RNA-Seq dataset, find the set of significantly differentially expressed genes and their annotations.
-- Given an RNA-Seq dataset, find the set of significantly differentially expressed genes and their annotations
-- Gain competency with data import, processing and analysis with DESeq2 and other bioconductor packages
-- Understand the structure of count data and metadata required for running analysis
-- Be able to extract, explore, visualize and export results
+- Gain competency with data import, processing and analysis with DESeq2 and other bioconductor packages.
+- Understand the structure of count data and metadata required for running analysis.
+- Be able to extract, explore, visualize and export results.
 
 **Material**:
-- Lecture Slides: [PDF]({{ site.baseurl }}/class-material/tmp.pdf){:.no-push-state}.
+- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture14_BIMM143_W18-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture14_BIMM143_W18-small.pdf){:.no-push-state}.
 - Detailed [Bioconductor setup]({{ site.baseurl }}//class-material/bioconductor_setup/){:.no-push-state} instructions.
 - [Hands-on section worksheet]({{ site.baseurl }}/class-material/lecture14-BIMM143_W18-lab/){:.no-push-state}
 - Data files: [airway_scaledcounts.csv]({{ site.baseurl }}/class-material/airway_scaledcounts.csv){:.no-push-state}, [airway_metadata.csv]({{ site.baseurl }}/class-material/airway_metadata.csv){:.no-push-state}, [annotables_grch38.csv]({{ site.baseurl }}/class-material/annotables_grch38.csv){:.no-push-state}.
@@ -466,24 +465,25 @@ Today’s lecture and hands-on sessions with introduce Git, currently the most p
  - Abstract and introduction sections of: [Himes et al. "RNA-Seq transcriptome profiling identifies CRISPLD2 as a glucocorticoid responsive gene that modulates cytokine function in airway smooth muscle cells." _PLoS ONE_ 9.6 (2014): e99625](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0099625){:.no-push-state}.
 
 
-# To Be Updated!
 
 
 <hr>
 <a name="15"></a>
 <br>
 
-## 15: Major bioinformatics resources for genomics. 
-**Topics**: Databases, tools and visualization resources from NCBI, EBI & UCSC, The Galaxy platform for quality control and analysis; FASTQ, SAM and BAM file formats; Sample Galaxy workflow with FastQC and Bowtie2
+# To Be Updated!
 
-**Goals**: 
-- For a genomic region of interest (e.g. the neighborhood of a particular SNP), use a genome browser to view nearby genes, transcription factor binding regions, epigenetic information, etc.
-- Understand the FASTQ file format and the information it holds. 
-- Understand the [SAM/BAM file format]({{ site.baseurl }}//class-material/sam_format/){:.no-push-state} and the information it holds.
-- Be able to launch your own cloud based Galaxy server for NGS analysis.
-- Be able to use the Galaxy platform for basic RNA-Seq analysis from raw reads to expression value determination.  
+## 15: Genome annotation and the interpretation of gene lists 
+**Topics**: Gene finding and functional annotation from high throughput sequencing data, Functional databases KEGG, InterPro, GO ontologies and functional enrichment
 
-**Material**:  
+**Goals**: Perform a GO analysis to identify the pathways relevant to a set of genes (e.g. identified by transcriptomic study or a proteomic experiment). Use both Bioconductor packages and online tools to interpret gene lists and annotate potential gene functions.
+
+**Material**:   
+
+
+**Readings**:    
+ - Good review article: Trapnell C, Hendrickson DG, Sauvageau M, Goff L et al. "*Differential analysis of gene regulation at transcript resolution with RNA-seq*". Nat Biotechnol 2013 Jan;31(1):46-53. [PMID: 23222703](https://www.ncbi.nlm.nih.gov/pubmed/23222703){:.no-push-state}.  
+
 
   
 
@@ -521,40 +521,29 @@ Today’s lecture and hands-on sessions with introduce Git, currently the most p
  - An oldey but a goodie: [Soneson et al. "Differential analyses for RNA-seq: transcript-level estimates improve gene-level inferences." _F1000Research_ 4 (2015)](https://f1000research.com/articles/4-1521/v2).
  - Abstract and introduction sections of: [Himes et al. "RNA-Seq transcriptome profiling identifies CRISPLD2 as a glucocorticoid responsive gene that modulates cytokine function in airway smooth muscle cells." _PLoS ONE_ 9.6 (2014): e99625](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0099625){:.no-push-state}.
 
+  
 
 <hr>
 <a name="18"></a>
 <br>
 
-## 18: Genome annotation and the interpretation of gene lists 
-**Topics**: Gene finding and functional annotation, Functional databases KEGG, InterPro, GO ontologies and functional enrichment
-
-**Goals**: Perform a GO analysis to identify the pathways relevant to a set of genes (e.g. identified by transcriptomic study or a proteomic experiment). Use both Bioconductor packages and online tools to interpret gene lists and annotate potential gene functions.
-
-**Material**:   
-
-
-**Readings**:    
- - Good review article: Trapnell C, Hendrickson DG, Sauvageau M, Goff L et al. "*Differential analysis of gene regulation at transcript resolution with RNA-seq*". Nat Biotechnol 2013 Jan;31(1):46-53. [PMID: 23222703](https://www.ncbi.nlm.nih.gov/pubmed/23222703){:.no-push-state}.  
-
-  
-
-<hr>
-<a name="19"></a>
-<br>
-
-## 19: Guest lecture 
+## 18: Guest lecture 
 **Topics**: Student selected industry based genomic scientist presentation with possible topics including: Metagenomics / Pharmacogenomics / Epigenomicss / Personal genomics / Genome evolution / Genome editing and synthetic genomics / Social impacts and ethical implications of continuing genomic advances
 
 **Goals**: Understand the challenges in integrating and interpreting large heterogenous high throughput data sets into their functional context.
 
 <hr>
-<a name="20"></a>
+<a name="19"></a>
 <br>
 
-## 20: Foundational statistics for bioinformatics 
+## 19: Foundational statistics for bioinformatics 
 **Topics**: Data summary statistics; Inferential statistics; Significance testing; Two sample T-test in R; Power analysis in R; Chi-square test in R; Multiple testing correction; and almost everything you wanted to know about Principal Component Analysis (PCA) but were afraid to ask!  
 
 **Material**:   
 
-  
+
+<hr>
+<a name="20"></a>
+<br>
+
+## 20: Final Exam
