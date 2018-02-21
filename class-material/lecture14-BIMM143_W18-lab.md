@@ -1,11 +1,18 @@
-BGGN-213, Lecture 17
-================
+---
+layout: page
+title: BIMM-143, Lecture 14
+---
 
-Transcriptomics and the analysis of RNA-Seq data
-================================================
+## Transcriptomics and the analysis of RNA-Seq data
+
+
+**BIMM-143 Lecture 15:**  
+Barry Grant &lt; <http://thegrantlab.org> &gt;  
+2018-02-20   (16:28:37 PST on Tue, Feb 20)  
+{:.message}
 
 Overiview
----------
+--------------------------------
 
 The data for this hands-on session comes from a published RNA-seq experiment where airway smooth muscle cells were treated with [dexamethasone](https://en.wikipedia.org/wiki/Dexamethasone), a synthetic glucocorticoid steroid with anti-inflammatory effects ([Himes et al. 2014](http://www.ncbi.nlm.nih.gov/pubmed/24926665)).
 
@@ -17,7 +24,7 @@ In the experiment, four primary human ASM cell lines were treated with 1 micromo
 
 In this session we will read and explore the gene expression data from this experiment using base R functions and then perform a detailed analysis with the **DESeq2** package from [Bioconductor](http://www.bioconductor.org).
 
-1. Bioconductor and DESeq2 setup
+Bioconductor and DESeq2 setup
 --------------------------------
 
 As we already noted back in [Lecture 7](https://bioboot.github.io/bimm143_W18/lectures/#7) Bioconductor is a large repository and resource for R packages that focus on analysis of high-throughput genomic data.
@@ -60,7 +67,7 @@ For the sample metadata (i.e. `colData` in DESeq2-speak) samples are in rows and
 
 > **Note from the DESeq2 vignette:** The values in the input contData object should be counts of sequencing reads/fragments. This is important for DESeq2’s statistical model to hold, as only counts allow assessing the measurement precision correctly. It is important to never provide counts that were pre-normalized for sequencing depth/library size, as the statistical model is most powerful when applied to un-normalized counts, and is designed to account for library size differences internally.
 
-2. Import countData and colData into R
+Import countData and colData into R
 --------------------------------------
 
 First, create a new RStudio project (File &gt; New Project &gt; New Directory &gt; New Project) and download the input [airway\_scaledcounts.csv](https://bioboot.github.io/bimm143_W18/class-material/airway_scaledcounts.csv) and [airway\_metadata.csv](https://bioboot.github.io/bimm143_W18/class-material/airway_metadata.csv) into a new `data` sub-directory of your project directory.
@@ -107,7 +114,7 @@ head(metadata)
 
 You can also use the **View()** function to view the entire object. Notice something here. The sample IDs in the metadata sheet (SRR1039508, SRR1039509, etc.) exactly match the column names of the countdata, except for the first column, which contains the Ensembl gene ID. This is important, and we'll get more strict about it later on.
 
-3. Toy differential gene expression
+Toy differential gene expression
 -----------------------------------
 
 Lets perform some exploratory differential gene expression analysis. **Note: this analysis is for demonstration only. NEVER do differential expression analysis this way!**
@@ -143,11 +150,11 @@ Directly comparing the raw counts is going to be problematic if we just happened
 
 > **Q3**. Create a scatter plot showing the mean of the treated samples against the mean of the control samples. Your plot should look something like the following.
 
-![](lecture14-BIMM143_W18-lab_files/figure-markdown_github/unnamed-chunk-9-1.png)
+![]({{ site.baseurl }}/class-material/lecture14-BIMM143_W18-lab_files/figure-markdown_github/unnamed-chunk-9-1.png)
 
 Wait a sec. There are 60,000-some rows in this data, but I'm only seeing a few dozen dots at most outside of the big clump around the origin. Try plotting both axes on a log scale (hint: see the help for **?plot.default** to see how to set log axis.
 
-![](lecture14-BIMM143_W18-lab_files/figure-markdown_github/unnamed-chunk-10-1.png)
+![]({{ site.baseurl }}/class-material/lecture14-BIMM143_W18-lab_files/figure-markdown_github/unnamed-chunk-10-1.png)
 
 We can find candidate differentially expressed genes by looking for genes with a large change between control and dex-treated samples. We usually look at the log2 of the fold change, because this has better mathematical properties.
 
@@ -203,7 +210,7 @@ down.ind <- mycounts$log2fc < (-2)
 
 In total, you should of reported 617 differentially expressed genes, in either direction.
 
-4. Adding annotation data
+Adding annotation data
 -------------------------
 
 Our `mycounts` result table so far only contains the Ensembl gene IDs. However, alternative gene names and extra annotation are usually required for informative for interpretation.
@@ -343,7 +350,7 @@ head(mycounts[up.ind,])
     ## ENSG00000015413 A0A140VJI3
     ## ENSG00000015592     Q9H169
 
-5. DESeq2 analysis
+DESeq2 analysis
 ------------------
 
 Let's do this the right way. DESeq2 is an R package for analyzing count-based NGS data like RNA-seq. It is available from [Bioconductor](http://www.bioconductor.org/). Bioconductor is a project to provide tools for analyzing high-throughput genomic data including RNA-seq, ChIP-seq and arrays. You can explore Bioconductor packages [here](http://www.bioconductor.org/packages/release/BiocViews.html#___Software).
@@ -559,7 +566,7 @@ Finally, let’s write out the ordered significant results with annotations. See
 write.csv(resSig01[ord,], "signif01_results.csv")
 ```
 
-6. Data Visualization
+Data Visualization
 ---------------------
 
 ### Plotting counts
@@ -588,7 +595,7 @@ Now, with that gene ID in hand let's plot the counts, where our `intgroup`, or "
 plotCounts(dds, gene="ENSG00000103196", intgroup="dex")
 ```
 
-![](lecture14-BIMM143_W18-lab_files/figure-markdown_github/plotCounts1-1.png)
+![]({{ site.baseurl }}/class-material/lecture14-BIMM143_W18-lab_files/figure-markdown_github/plotCounts1-1.png)
 
 That's just okay. Keep looking at the help for `?plotCounts`. Notice that we could have actually returned the data instead of plotting. We could then pipe this to ggplot and make our own figure. Let's make a boxplot.
 
@@ -612,7 +619,7 @@ We can mow use this returned object to plot a boxplot with the base graphics fun
 boxplot(count ~ dex , data=d)
 ```
 
-![](lecture14-BIMM143_W18-lab_files/figure-markdown_github/unnamed-chunk-32-1.png)
+![]({{ site.baseurl }}/class-material/lecture14-BIMM143_W18-lab_files/figure-markdown_github/unnamed-chunk-32-1.png)
 
 As the returned object is a data.frame it is also all setup for ggplot2 based plotting. For example:
 
@@ -621,7 +628,7 @@ library(ggplot2)
 ggplot(d, aes(dex, count)) + geom_boxplot(aes(fill=dex)) + scale_y_log10() + ggtitle("CRISPLD2")
 ```
 
-![](lecture14-BIMM143_W18-lab_files/figure-markdown_github/unnamed-chunk-33-1.png)
+![]({{ site.baseurl }}/class-material/lecture14-BIMM143_W18-lab_files/figure-markdown_github/unnamed-chunk-33-1.png)
 
 Which plot do you prefer? Maybe time to learn ggplot via the DataCamp course ;-)
 
@@ -652,7 +659,7 @@ Look up the Wikipedia articles on [MA plots](https://en.wikipedia.org/wiki/MA_pl
 
     ## Warning: Removed 13436 rows containing missing values (geom_point).
 
-![](lecture14-BIMM143_W18-lab_files/figure-markdown_github/maplot-1.png)
+![]({{ site.baseurl }}/class-material/lecture14-BIMM143_W18-lab_files/figure-markdown_github/maplot-1.png)
 
 ### In built MA-plot
 
@@ -662,7 +669,7 @@ In DESeq2, the function **plotMA()** shows the log2 fold changes attributable to
 plotMA(res, ylim=c(-2,2))
 ```
 
-![](lecture14-BIMM143_W18-lab_files/figure-markdown_github/unnamed-chunk-35-1.png)
+![]({{ site.baseurl }}/class-material/lecture14-BIMM143_W18-lab_files/figure-markdown_github/unnamed-chunk-35-1.png)
 
 It is often more useful to visualize the MA-plot for so-called shrunken log2 fold changes, which remove the noise associated with log2 fold changes from low count genes.
 
@@ -705,7 +712,7 @@ resLFC
 plotMA(resLFC, ylim=c(-2,2))
 ```
 
-![](lecture14-BIMM143_W18-lab_files/figure-markdown_github/unnamed-chunk-36-1.png)
+![]({{ site.baseurl }}/class-material/lecture14-BIMM143_W18-lab_files/figure-markdown_github/unnamed-chunk-36-1.png)
 
 ### Volcano plot
 
@@ -719,9 +726,9 @@ ggplot(as.data.frame(res), aes(log2FoldChange, -1*log10(pvalue), col=sig)) +
 
     ## Warning: Removed 13578 rows containing missing values (geom_point).
 
-![](lecture14-BIMM143_W18-lab_files/figure-markdown_github/unnamed-chunk-37-1.png)
+![]({{ site.baseurl }}/class-material/lecture14-BIMM143_W18-lab_files/figure-markdown_github/unnamed-chunk-37-1.png)
 
-7. Side-note: Transformation
+Side-note: Transformation
 ----------------------------
 
 To test for differential expression we operate on raw counts. But for other downstream analyses like heatmaps, PCA, or clustering, we need to work with transformed versions of the data, because it's not clear how to best compute a distance metric on untransformed counts. The go-to choice might be a log transformation. But because many samples have a zero count (and *l**o**g*(0)= − ∞, you might try using pseudocounts, i. e. *y* = *l**o**g*(*n* + 1) or more generally, *y* = *l**o**g*(*n* + *n*<sub>0</sub>), where *n* represents the count values and *n*<sub>0</sub> is some positive constant.
@@ -740,7 +747,7 @@ Let's do some exploratory plotting of the data using principal components analys
 plotPCA(vsdata, intgroup="dex")
 ```
 
-![](lecture14-BIMM143_W18-lab_files/figure-markdown_github/plotPCA-1.png)
+![]({{ site.baseurl }}/class-material/lecture14-BIMM143_W18-lab_files/figure-markdown_github/plotPCA-1.png)
 
 Principal Components Analysis (PCA) is a dimension reduction and visualization technique that is here used to project the multivariate data vector of each sample into a two-dimensional plot, such that the spatial arrangement of the points in the plot reflects the overall data (dis)similarity between the samples. We have covered PCA in [Lecture 8](https://bioboot.github.io/bimm143_W18/lectures/#8). In essence, principal component analysis distills all the global variation between samples down to a few variables called *principal components*. The majority of variation between the samples can be summarized by the first principal component, which is shown on the x-axis. The second principal component summarizes the residual variation that isn't explained by PC1. PC2 is shown on the y-axis. The percentage of the global variation explained by each principal component is given in the axis labels. In a two-condition scenario (e.g., mutant vs WT, or treated vs control), you might expect PC1 to separate the two experimental conditions, so for example, having all the controls on the left and all experimental samples on the right (or vice versa - the units and directionality isn't important). The secondary axis may separate other aspects of the design - cell line, time point, etc. Very often the experimental design is reflected in the PCA plot, and in this case, it is. But this kind of diagnostic can be useful for finding outliers, investigating batch effects, finding sample swaps, and other technical problems with the data. [This YouTube video](https://youtu.be/_UVHneBUBW0) from the Genetics Department at UNC gives a very accessible explanation of what PCA is all about in the context of a gene expression experiment, without the need for an advanced math background. Take a look.
 
