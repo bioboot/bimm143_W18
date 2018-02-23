@@ -36,7 +36,7 @@ All Lectures are Tu/Th 9:00-12:00 pm in Warren Lecture Hall 2015 (WLH 2015) ([Ma
 |   |   |   |
 | 13 | Tu, 02/20 | [**Genome informatics and high throughput sequencing (Part 1)**](#13) <br> Genome sequencing technologies past, present and future; Biological applications of sequencing, Analysis of variation in the genome, and gene expression; The Galaxy platform along with resources from the EBI & UCSC; Sample Galaxy RNA-Seq workflow with FastQC and Bowtie2 | 
 |   |   |   |
-| 14 | Th, 02/22 | [**Transcriptomics and the analysis of RNA-Seq data**](#13) <br> RNA-Seq aligners, Differential expression tests, RNA-Seq statistics, Counts and FPKMs and avoiding P-value misuse, Hands-on analysis of RNA-Seq data with R. <br> **N.B.** Find a gene assignment part 1 due today!| 
+| 14 | Th, 02/22 | [**Transcriptomics and the analysis of RNA-Seq data**](#14) <br> RNA-Seq aligners, Differential expression tests, RNA-Seq statistics, Counts and FPKMs and avoiding P-value misuse, Hands-on analysis of RNA-Seq data with R. <br> **N.B.** Find a gene assignment part 1 due today!| 
 |   |   |   |
 | 15 | Tu, 02/27 | [**Genome annotation and the interpretation of gene lists**](#15) <br> Gene finding and functional annotation, Functional databases KEGG, InterPro, GO ontologies and functional enrichment | 
 |   |   |   |
@@ -471,7 +471,6 @@ Today’s lecture and hands-on sessions with introduce Git, currently the most p
 <a name="15"></a>
 <br>
 
-# To Be Updated!
 
 ## 15: Genome annotation and the interpretation of gene lists 
 **Topics**: Gene finding and functional annotation from high throughput sequencing data, Functional databases KEGG, InterPro, GO ontologies and functional enrichment
@@ -479,18 +478,28 @@ Today’s lecture and hands-on sessions with introduce Git, currently the most p
 **Goals**: Perform a GO analysis to identify the pathways relevant to a set of genes (e.g. identified by transcriptomic study or a proteomic experiment). Use both Bioconductor packages and online tools to interpret gene lists and annotate potential gene functions.
 
 **Material**:   
+- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture15_BIMM143_W18-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture15_BIMM143_W18-small.pdf){:.no-push-state}.  
+- [Hands-on section worksheet]({{ site.baseurl }}/class-material/lecture15_BIMM143_W18/){:.no-push-state}  
+- Data files: [GSE37704_featurecounts.csv]({{ site.baseurl }}/class-material/GSE37704_featurecounts.csv){:.no-push-state}, [GSE37704_metadata.csv]({{ site.baseurl }}/class-material/GSE37704_metadata.csv){:.no-push-state}.   
+- Muddy point assessment
+ 
 
+**Homework**:
+Quiz Assessment (ungraded!)
 
 **Readings**:    
  - Good review article: Trapnell C, Hendrickson DG, Sauvageau M, Goff L et al. "*Differential analysis of gene regulation at transcript resolution with RNA-seq*". Nat Biotechnol 2013 Jan;31(1):46-53. [PMID: 23222703](https://www.ncbi.nlm.nih.gov/pubmed/23222703){:.no-push-state}.  
 
-
+  
   
 
 
 <hr>
 <a name="16"></a>
 <br>
+
+# To Be Updated!
+
 
 ## 16: Immunoinformatics 
 **Topics**: Immunoinformatics resources for the understanding of immunological information. A case study in personalized cancer immunotherapy.
