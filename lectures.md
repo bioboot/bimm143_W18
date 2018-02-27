@@ -485,7 +485,7 @@ Today’s lecture and hands-on sessions with introduce Git, currently the most p
  
 
 **Homework**:
-Quiz Assessment (ungraded!)
+[**Quiz Assessment**](https://goo.gl/forms/8xKqSGba3BAmuGx02){:.no-push-state} 
 
 **Readings**:    
  - Good review article: Trapnell C, Hendrickson DG, Sauvageau M, Goff L et al. "*Differential analysis of gene regulation at transcript resolution with RNA-seq*". Nat Biotechnol 2013 Jan;31(1):46-53. [PMID: 23222703](https://www.ncbi.nlm.nih.gov/pubmed/23222703){:.no-push-state}.  
