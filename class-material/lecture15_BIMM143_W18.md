@@ -520,7 +520,6 @@ pathview(gene.data=foldchanges, pathway.id="hsa04110")
     ## Info: Downloading xml files for hsa04110, 1/1 pathways..
     ## Info: Downloading png files for hsa04110, 1/1 pathways..
     ## 'select()' returned 1:1 mapping between keys and columns
-    ## Info: Working in directory /Users/barry/Desktop/bggn213_class/class18
     ## Info: Writing image file hsa04110.pathview.png
 
 This downloads the patway figure data from KEGG and adds our results to it. You can play with the other input arguments to **pathview()** to change the dispay in various ways including generating a PDF graph. For example:
