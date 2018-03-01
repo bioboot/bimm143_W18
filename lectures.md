@@ -40,13 +40,13 @@ All Lectures are Tu/Th 9:00-12:00 pm in Warren Lecture Hall 2015 (WLH 2015) ([Ma
 |   |   |   |
 | 15 | Tu, 02/27 | [**Genome annotation and the interpretation of gene lists**](#15) <br> Gene finding and functional annotation, Functional databases KEGG, InterPro, GO ontologies and functional enrichment | 
 |   |   |   |
-| 16 | Th, 03/01 | [**Transcriptomics and the analysis of RNA-Seq data**](#16) <br> More with the Galaxy platform and R/Bioconductor; Extended workflows | 
+| 16 | Th, 03/01 | [**Essential statistics for bioinformatics**](#16) <br> Everything you wanted to know about statistics for bioinformatics but were afraid to ask. Extensive R examples and applications.  | 
 |   |   |   |
-| 17 | Tu, 03/06 | [**Immunoinformatics resources for the understanding of immunological information**](#17) <br> Guest lecture from Dr. Bjoern Peters (LIAI) with topics including: Epitope prediction,  Reverse vaccinology, Immune system modeling, Disease diagnosis and therapy along with implications for the development of personalized medicine. | 
+| 17 | Tu, 03/06 | [**Immunoinformatics resources for the understanding of immunological information**](#17) <br> Epitope prediction,  Reverse vaccinology, Immune system modeling, Disease diagnosis and therapy along with implications for the development of personalized medicine. | 
 |   |   |   |
-| 18 | Th, 03/08 | [**Essential Statistics for Bioinformatics**](#18) <br> Everything you wanted to know about statistics for bioinformatics but were afraid to ask. Extensive R examples and applications. <br> **N.B.** Find a gene assignment due on Tuesday 03/13!  | 
+| 18 | Th, 03/08 | [**Transcriptomics and the analysis of RNA-Seq data**](#18) <br> More with the Galaxy platform and R/Bioconductor; Extended workflows. <br> **N.B.** Find a gene assignment due on Tuesday 03/13!  | 
 |   |   |   |
-| 19 | Tu, 03/13 | [**Course summary**](#19) <br> Summary of learning goals, Student course evaluation time and exam preparation; **Find a gene assignment due**. | 
+| 19 | Tu, 03/13 | [**Course summary**](#19) <br> Summary of learning goals, Student course evaluation time and exam preparation; **Find a gene assignment due!** | 
 |   |   |   |
 | 20 | Th, 03/15 | [**Final exam!**](#20)  | 
 
@@ -498,37 +498,32 @@ Today’s lecture and hands-on sessions with introduce Git, currently the most p
 <a name="16"></a>
 <br>
 
-# To Be Updated!
+## 16: Essential statistics for bioinformatics 
+**Topics**: Data summary statistics; Inferential statistics; Significance testing; Two sample T-test in R; Power analysis in R; Multiple testing correction; and almost everything you wanted to know about Principal Component Analysis (PCA) but were afraid to ask! Extensive R examples and applications.
+
+**Material**:   
+- Lecture Slides: [PDF]({{ site.baseurl }}/class-material/lecture16_BIMM143_W18-large.pdf){:.no-push-state}.  
+- Data files: 
+  - [RNA-seq_excitatory_neurons_rep1_TPM_by_names.tsv]({{ site.baseurl }}/class-material/RNA-seq_excitatory_neurons_rep1_TPM_by_names.tsv){:.no-push-state}, 
+  - [RNA-seq_excitatory_neurons_rep2_TPM_by_names.tsv]({{ site.baseurl }}/class-material/RNA-seq_excitatory_neurons_rep2_TPM_by_names.tsv){:.no-push-state}, 
+  - [RNA-seq_PV_neurons_rep1_TPM_by_names.tsv]({{ site.baseurl }}/class-material/RNA-seq_PV_neurons_rep1_TPM_by_names.tsv){:.no-push-state}, 
+  - [RNA-seq_PV_neurons_rep2_TPM_by_names.tsv]({{ site.baseurl }}/class-material/RNA-seq_PV_neurons_rep2_TPM_by_names.tsv){:.no-push-state}.   
+- Feedback: [Muddy point assessment](https://goo.gl/forms/YBPM7MoMTqKNnLoV2){:.no-push-state}.  
 
 
-## 16: Immunoinformatics 
-**Topics**: Immunoinformatics resources for the understanding of immunological information. A case study in personalized cancer immunotherapy.
-<br> Other topics including: Epitope prediction,  Reverse vaccinology, Immune system modeling, Disease diagnosis and therapy along with implications for the development of personalized medicine.
 
-**Material**:  
 
 
 <hr>
 <a name="17"></a>
 <br>
 
-## 17: Transcriptomics and the analysis of RNA-Seq data 
-**Topics**: Analysis of RNA-Seq data with R, Differential expression tests, RNA-Seq statistics, Counts and FPKMs, Normalizing for sequencing depth, DESeq2 analysis. 
 
-**Goals**: 
-- Given an RNA-Seq dataset, find the set of significantly differentially expressed genes and their annotations. 
-- Given an RNA-Seq dataset, find the set of significantly differentially expressed genes and their annotations
-- Gain competency with data import, processing and analysis with DESeq2 and other bioconductor packages
-- Understand the structure of count data and metadata required for running analysis
-- Be able to extract, explore, visualize and export results
+## 17: Immunoinformatics 
+**Topics**: Immunoinformatics resources for the understanding of immunological information. A case study in personalized cancer immunotherapy.
+<br> Other topics including: Epitope prediction,  Reverse vaccinology, Immune system modeling, Disease diagnosis and therapy along with implications for the development of personalized medicine.
 
 **Material**:  
-
- 
-**Readings**:    
- - Excellent review article: [Conesa et al. A survey of best practices for RNA-seq data analysis. _Genome Biology_ 17:13 (2016)](http://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-0881-8){:.no-push-state}.
- - An oldey but a goodie: [Soneson et al. "Differential analyses for RNA-seq: transcript-level estimates improve gene-level inferences." _F1000Research_ 4 (2015)](https://f1000research.com/articles/4-1521/v2).
- - Abstract and introduction sections of: [Himes et al. "RNA-Seq transcriptome profiling identifies CRISPLD2 as a glucocorticoid responsive gene that modulates cytokine function in airway smooth muscle cells." _PLoS ONE_ 9.6 (2014): e99625](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0099625){:.no-push-state}.
 
   
 
@@ -545,8 +540,8 @@ Today’s lecture and hands-on sessions with introduce Git, currently the most p
 <a name="19"></a>
 <br>
 
-## 19: Foundational statistics for bioinformatics 
-**Topics**: Data summary statistics; Inferential statistics; Significance testing; Two sample T-test in R; Power analysis in R; Chi-square test in R; Multiple testing correction; and almost everything you wanted to know about Principal Component Analysis (PCA) but were afraid to ask!  
+## 19: Course summary  
+**Topics**: Summary of learning goals, Student course evaluation time and exam preparation; Find a gene assignment due.  
 
 **Material**:   
 
