@@ -42,7 +42,7 @@ All Lectures are Tu/Th 9:00-12:00 pm in Warren Lecture Hall 2015 (WLH 2015) ([Ma
 |   |   |   |
 | 16 | Th, 03/01 | [**Essential statistics for bioinformatics**](#16) <br> Everything you wanted to know about statistics for bioinformatics but were afraid to ask. Extensive R examples and applications.  | 
 |   |   |   |
-| 17 | Tu, 03/06 | [**Biological network analysis**](#17) <br> Epitope prediction,  Reverse vaccinology, Immune system modeling, Disease diagnosis and therapy along with implications for the development of personalized medicine. | 
+| 17 | Tu, 03/06 | [**Biological network analysis**](#17) <br> Network based approaches for integrating and interpreting large heterogeneous high throughput data sets; Discovering relationships in 'omics' data; Network construction, manipulation, visualization and analysis; Major graph theory and network topology measures and concepts (Degree, Communities, Shortest Paths, Centralities, Betweenness, Random graphs vs scale free); Hands-on with Cytoscape and igraph packages. | 
 |   |   |   |
 | 18 | Th, 03/08 | [**Immunoinformatics resources for the understanding of immunological information**](#18) <br> Epitope prediction,  Reverse vaccinology, Immune system modeling, Disease diagnosis and therapy along with implications for the development of personalized medicine. <br> **N.B.** Find a gene assignment due on Tuesday 03/13!  | 
 |   |   |   |
@@ -520,8 +520,7 @@ Today’s lecture and hands-on sessions with introduce Git, currently the most p
 
 
 ## 17: Biological network analysis 
-**Topics**: Immunoinformatics resources for the understanding of immunological information. A case study in personalized cancer immunotherapy.
-<br> Other topics including: Epitope prediction,  Reverse vaccinology, Immune system modeling, Disease diagnosis and therapy along with implications for the development of personalized medicine.
+**Topics**: Network graph approaches for integrating and interpreting large heterogeneous high throughput data sets; Discovering relationships in 'omics' data; Network construction, manipulation, visualization and analysis; Graph theory; Major network topology measures and concepts (Degree, Communities, Shortest Paths, Centralities, Betweenness, Random graphs vs scale free); De novo sub-network construction and clustering. Hands-on with Cytoscape and R packages for network visualization and analysis.
 
 **Goals**:
 - Understand the challenges in integrating and interpreting large heterogenous high throughput data sets into their functional context.  
@@ -535,6 +534,8 @@ Today’s lecture and hands-on sessions with introduce Git, currently the most p
 - [Hands-on section worksheet Part 1.]({{ site.baseurl }}/class-material/lecture17_BIMM143_W18_lab1.pdf){:.no-push-state}  
 - [Hands-on section worksheet Part 2.]({{ site.baseurl }}/class-material/lecture17_BIMM143_W18/){:.no-push-state}  
 - Data files:  
+  - [galFiltered.sif]({{ site.baseurl }}/class-material/galFiltered.sif){:.no-push-state},  
+  - [galExpData.csv]({{ site.baseurl }}/class-material/galExpData.csv){:.no-push-state},  
   - [CytoscapeDemo_01.cys]({{ site.baseurl }}/class-material/CytoscapeDemo_01.cys){:.no-push-state},  
   - [virus_prok_cor_abundant.tsv]({{ site.baseurl }}/class-material/virus_prok_cor_abundant.tsv){:.no-push-state},  
   - [phage_ids_with_affiliation.tsv]({{ site.baseurl }}/class-material/phage_ids_with_affiliation.tsv){:.no-push-state}, 
