@@ -42,9 +42,9 @@ All Lectures are Tu/Th 9:00-12:00 pm in Warren Lecture Hall 2015 (WLH 2015) ([Ma
 |   |   |   |
 | 16 | Th, 03/01 | [**Essential statistics for bioinformatics**](#16) <br> Everything you wanted to know about statistics for bioinformatics but were afraid to ask. Extensive R examples and applications.  | 
 |   |   |   |
-| 17 | Tu, 03/06 | [**Immunoinformatics resources for the understanding of immunological information**](#17) <br> Epitope prediction,  Reverse vaccinology, Immune system modeling, Disease diagnosis and therapy along with implications for the development of personalized medicine. | 
+| 17 | Tu, 03/06 | [**Biological network analysis**](#17) <br> Epitope prediction,  Reverse vaccinology, Immune system modeling, Disease diagnosis and therapy along with implications for the development of personalized medicine. | 
 |   |   |   |
-| 18 | Th, 03/08 | [**Transcriptomics and the analysis of RNA-Seq data**](#18) <br> More with the Galaxy platform and R/Bioconductor; Extended workflows. <br> **N.B.** Find a gene assignment due on Tuesday 03/13!  | 
+| 18 | Th, 03/08 | [**Immunoinformatics resources for the understanding of immunological information**](#18) <br> Epitope prediction,  Reverse vaccinology, Immune system modeling, Disease diagnosis and therapy along with implications for the development of personalized medicine. <br> **N.B.** Find a gene assignment due on Tuesday 03/13!  | 
 |   |   |   |
 | 19 | Tu, 03/13 | [**Course summary**](#19) <br> Summary of learning goals, Student course evaluation time and exam preparation; **Find a gene assignment due!** | 
 |   |   |   |
@@ -519,11 +519,28 @@ Today’s lecture and hands-on sessions with introduce Git, currently the most p
 <br>
 
 
-## 17: Immunoinformatics 
+## 17: Biological network analysis 
 **Topics**: Immunoinformatics resources for the understanding of immunological information. A case study in personalized cancer immunotherapy.
 <br> Other topics including: Epitope prediction,  Reverse vaccinology, Immune system modeling, Disease diagnosis and therapy along with implications for the development of personalized medicine.
 
+**Goals**:
+- Understand the challenges in integrating and interpreting large heterogenous high throughput data sets into their functional context.  
+- Be able to describe the major goals of biological network analysis and the concepts underlying network visualization and analysis.   
+- Be able to use Cytoscape for network visualization and manipulation.
+- Be able to find and instal Cytoscape Apps to extend network analysis functionality.  
+- Appreciate that the igraph R package has extensive network analysis functionality beyond that in Cytoscape and that the R bioconductor package RCy3 package allows us to bring networks and associated data from R to Cytoscape so we can have the best of both worlds. 
+
 **Material**:  
+- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture17_BIMM143_W18-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture17_BIMM143_W18-small.pdf){:.no-push-state}.  
+- [Hands-on section worksheet Part 1.]({{ site.baseurl }}/class-material/lecture17_BIMM143_W18_lab1.pdf){:.no-push-state}  
+- [Hands-on section worksheet Part 2.]({{ site.baseurl }}/class-material/lecture17_BIMM143_W18/){:.no-push-state}  
+- Data files:  
+  - [CytoscapeDemo_01.cys]({{ site.baseurl }}/class-material/CytoscapeDemo_01.cys){:.no-push-state},  
+  - [virus_prok_cor_abundant.tsv]({{ site.baseurl }}/class-material/virus_prok_cor_abundant.tsv){:.no-push-state},  
+  - [phage_ids_with_affiliation.tsv]({{ site.baseurl }}/class-material/phage_ids_with_affiliation.tsv){:.no-push-state}, 
+  - [prok_tax_from_silva.tsv]({{ site.baseurl }}/class-material/prok_tax_from_silva.tsv){:.no-push-state}.  
+- Muddy point assessment
+ 
 
   
 
@@ -531,10 +548,12 @@ Today’s lecture and hands-on sessions with introduce Git, currently the most p
 <a name="18"></a>
 <br>
 
-## 18: Guest lecture 
-**Topics**: Student selected industry based genomic scientist presentation with possible topics including: Metagenomics / Pharmacogenomics / Epigenomicss / Personal genomics / Genome evolution / Genome editing and synthetic genomics / Social impacts and ethical implications of continuing genomic advances
+## 18: Immunoinformatics 
+**Topics**: Immunoinformatics resources for the understanding of immunological information. A case study in personalized cancer immunotherapy.
+<br> Other topics including: Epitope prediction,  Reverse vaccinology, Immune system modeling, Disease diagnosis and therapy along with implications for the development of personalized medicine.
 
-**Goals**: Understand the challenges in integrating and interpreting large heterogenous high throughput data sets into their functional context.
+**Material**: 
+
 
 <hr>
 <a name="19"></a>
