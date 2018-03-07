@@ -554,7 +554,16 @@ Today’s lecture and hands-on sessions with introduce Git, currently the most p
 <br> Other topics including: Epitope prediction,  Reverse vaccinology, Immune system modeling, Disease diagnosis and therapy along with implications for the development of personalized medicine.
 
 **Material**: 
-
+- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture18_BIMM143_W18-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture18_BIMM143_W18-small.pdf){:.no-push-state}.  
+- [Hands-on section worksheet Part 1.]({{ site.baseurl }}/class-material/lecture18_part1_BIMM143_W18/){:.no-push-state}  
+- [Hands-on section worksheet Part 2.]({{ site.baseurl }}/class-material/lecture18_part2_BIMM143_W18/){:.no-push-state}  
+- Data files:  
+  - [lecture18_sequences.fa]({{ site.baseurl }}/class-material/lecture18_sequences.fa){:.no-push-state},  
+  - [galExpData.csv]({{ site.baseurl }}/class-material/galExpData.csv){:.no-push-state},  
+- Solutions:
+  - [subsequences.fa]({{ site.baseurl }}/class-material/subsequences.fa){:.no-push-state},  
+  - [Solutions.pdf]({{ site.baseurl }}/class-material/Solutions.pdf){:.no-push-state}.  
+- IEDB HLA binding prediction website [http://tools.iedb.org/mhci/](http://tools.iedb.org/mhci/){:.no-push-state}.  
 
 <hr>
 <a name="19"></a>
