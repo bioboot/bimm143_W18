@@ -44,7 +44,7 @@ All Lectures are Tu/Th 9:00-12:00 pm in Warren Lecture Hall 2015 (WLH 2015) ([Ma
 |   |   |   |
 | 17 | Tu, 03/06 | [**Biological network analysis**](#17) <br> Network based approaches for integrating and interpreting large heterogeneous high throughput data sets; Discovering relationships in 'omics' data; Network construction, manipulation, visualization and analysis; Major graph theory and network topology measures and concepts (Degree, Communities, Shortest Paths, Centralities, Betweenness, Random graphs vs scale free); Hands-on with Cytoscape and igraph packages. | 
 |   |   |   |
-| 18 | Th, 03/08 | [**Immunoinformatics resources for the understanding of immunological information**](#18) <br> Epitope prediction,  Reverse vaccinology, Immune system modeling, Disease diagnosis and therapy along with implications for the development of personalized medicine. <br> **N.B.** Find a gene assignment due on Tuesday 03/13!  | 
+| 18 | Th, 03/08 | [**Cancer genomics**](#18) <br> Cancer genomics resources and bioinformatics tools for investigating the molecular basis of cancer. Mining the NCI Genomic Data Commons; Immunoinformatics and immunotherapy; Using genomics and bioinformatics to design a personalized cancer vaccine. Implications for personalized medicine. <br> **N.B.** Find a gene assignment due on Tuesday 03/13!  | 
 |   |   |   |
 | 19 | Tu, 03/13 | [**Course summary**](#19) <br> Summary of learning goals, Student course evaluation time and exam preparation; **Find a gene assignment due!** | 
 |   |   |   |
@@ -549,9 +549,8 @@ Today’s lecture and hands-on sessions with introduce Git, currently the most p
 <a name="18"></a>
 <br>
 
-## 18: Immunoinformatics 
-**Topics**: Immunoinformatics resources for the understanding of immunological information. A case study in personalized cancer immunotherapy.
-<br> Other topics including: Epitope prediction,  Reverse vaccinology, Immune system modeling, Disease diagnosis and therapy along with implications for the development of personalized medicine.
+## 18: Cancer genomics 
+**Topics**: Cancer genomics resources and bioinformatics tools for investigating the molecular basis of cancer. Large scale cancer sequencing projects; NCI Genomic Data Commons; What has been learned from genome sequencing of cancer? **Immunoinformatics, immunotherapy  and cancer**; Using genomics and bioinformatics to harness a patient’s own immune system to fight cancer. Implications for the development of personalized medicine.
 
 **Material**: 
 - Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture18_BIMM143_W18-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture18_BIMM143_W18-small.pdf){:.no-push-state}.  
@@ -559,8 +558,8 @@ Today’s lecture and hands-on sessions with introduce Git, currently the most p
 - [Hands-on section worksheet Part 2.]({{ site.baseurl }}/class-material/lecture18_part2_BIMM143_W18/){:.no-push-state}  
 - Data files:  
   - [lecture18_sequences.fa]({{ site.baseurl }}/class-material/lecture18_sequences.fa){:.no-push-state},  
-  - [galExpData.csv]({{ site.baseurl }}/class-material/galExpData.csv){:.no-push-state},  
-- Solutions:
+- Solutions:  
+  - Example [mutant identification and subsequence extraction with R]({{ site.baseurl }}/class-material/lecture18_part2_example/){:.no-push-state} walk through.    
   - [subsequences.fa]({{ site.baseurl }}/class-material/subsequences.fa){:.no-push-state},  
   - [Solutions.pdf]({{ site.baseurl }}/class-material/Solutions.pdf){:.no-push-state}.  
 - IEDB HLA binding prediction website [http://tools.iedb.org/mhci/](http://tools.iedb.org/mhci/){:.no-push-state}.  
