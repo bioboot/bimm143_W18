@@ -571,7 +571,7 @@ Today’s lecture and hands-on sessions with introduce Git, currently the most p
 ## 19: Course summary  
 **Topics**: Summary of learning goals, Student course evaluation time and exam preparation; Find a gene assignment due.  Open study.  
   
-Hand-out: [**Exam guidlines and example questions**]({{ site.baseurl }}/class-material/BIMM143_exam_guidlines.pdf){:.no-push-state}
+Hand-out: [**Exam guidlines, topics, and example questions**]({{ site.baseurl }}/class-material/BIMM143_exam_guidlines.pdf){:.no-push-state}
 
 <hr>
 <a name="20"></a>
