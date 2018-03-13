@@ -569,13 +569,26 @@ Today’s lecture and hands-on sessions with introduce Git, currently the most p
 <br>
 
 ## 19: Course summary  
-**Topics**: Summary of learning goals, Student course evaluation time and exam preparation; Find a gene assignment due.  
-
-**Material**:   
+**Topics**: Summary of learning goals, Student course evaluation time and exam preparation; Find a gene assignment due.  Open study.  
+  
 
 
 <hr>
 <a name="20"></a>
 <br>
 
-## 20: Final Exam
+## 20: Final Exam  
+
+This open-book, open-notes 150-minute test consists of 35 questions.  The number of points for each question is indicated in green font at the beginning of each question. There are 80 total points on offer.  
+
+
+Please remember to:
+
+- Read all questions carefully before starting.
+- Put your name, UCSD email and PID number on your test.
+- Write all your answers on the space provided in the exam paper.
+- Remember that concise answers are preferable to wordy ones.
+- Clearly state any simplifying assumptions you make in solving a problem.
+- No copies of this exam are to be removed from the class-room.
+- No talking or communication (electronic to otherwise) with your fellow students once the exam has begun.
+- **Good luck!**  
