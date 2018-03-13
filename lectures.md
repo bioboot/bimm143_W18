@@ -573,6 +573,9 @@ Today’s lecture and hands-on sessions with introduce Git, currently the most p
   
 Hand-out: [**Exam guidlines, topics, and example questions**]({{ site.baseurl }}/class-material/BIMM143_exam_guidlines.pdf){:.no-push-state}
 
+Ether-pad: [**Feedback**](https://etherpad.net/p/bimm143){:.no-push-state}  
+  
+  
 <hr>
 <a name="20"></a>
 <br>
